@@ -508,7 +508,7 @@ font-size:18px;
   text-align:right;
 }
 
-.photodish {text-align: center; margin-top: 15px;}
+.photodish {text-align: center; margin-top: 15px; justify-content: space-between;}
 .descr {font-family: 'Yantramanav', sans-serif;
 font-size:14px;
 }
