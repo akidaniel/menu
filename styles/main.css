@@ -301,13 +301,14 @@ justify-content: space-between;
 z-index: 9500;}
 
 /*BOTON SOCIAL*/
-.FCBK, .TWITTER, .GPLUS, .MAIL, .BACK, .HOME {
+.FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME {
 display:block;
 text-indent:-625rem;
 width:3.125rem;
 height:3.125rem;
 background-repeat:no-repeat;
-cursor: pointer; font-size: 55px;
+cursor: pointer;
+font-size: 55px;
 }
 .HOME {background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_INICIO.svg)}
 
