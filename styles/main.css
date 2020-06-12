@@ -510,7 +510,7 @@ font-size:18px;
 .menuitem {max-width: 580px; font-family: 'Berkshire Swash', cursive;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
-.plato {font-size:18px; border-bottom: none; line-height: 80%;}
+.plato {max-width: 290px; font-size:18px; border-bottom: none; line-height: 80%;}
 
 .lastline {border:none; text-align:center; background:;}
 
