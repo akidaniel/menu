@@ -307,21 +307,21 @@ text-indent:-625rem;
 width:3.125rem;
 height:3.125rem;
 background-repeat:no-repeat;
-cursor: pointer;
+cursor: pointer; font-size: 55px;
 }
 .HOME {background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_INICIO.svg)}
 
 .BACK {background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_X2.svg)}
 
 .FCBK {
-background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_FCBK2.svg);
+/*background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_FCBK2.svg);*/
 }
 
 .TWITTER {
 background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TWITTER2.svg);
 }
 
-.INSTA {font-size: 52px;
+.INSTA {
 }
 
 .MAIL {
