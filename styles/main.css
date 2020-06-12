@@ -506,7 +506,7 @@ font-size:18px;
 
 .menuitemcontainer {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
 .menuitem {max-width: 580px; font-family: 'Berkshire Swash', cursive;
- font-size: 26px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
+ font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
 .lastline {border:none; text-align:center; background:;}
 
