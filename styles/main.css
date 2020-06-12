@@ -491,7 +491,7 @@ text-align: center;}
   max-width: 580px;
   margin: 0 auto;
   }
-.dish  {max-width: 289px; } 
+.dish  {max-width: 289px; flex:1;} 
 .principal {
   background: ;
   flex: 1;
@@ -505,14 +505,14 @@ font-size:18px;
   text-align:right;
 }
 
-.photodish {flex:1;}
+.photodish {}
 .descr {font-family: 'Yantramanav', sans-serif;
 font-size:14px;
   flex: 1;
 }
 
 
-.menuitem.plato {font-size:18px; border-bottom: none; line-height: 100%;}
+.menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%;}
 
 .lastline {border:none; text-align:center; background:;}
 
