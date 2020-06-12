@@ -496,8 +496,8 @@ text-align: center;}
 
 
 .principal {
-  background: ;
-  flex: 1;
+background: ;
+flex: 1;
 font-family: 'Yantramanav', sans-serif;
 font-size:18px;
   padding: 5px 5px 2px 5px; border-bottom: 2px dotted #ccc;
@@ -508,10 +508,9 @@ font-size:18px;
   text-align:right;
 }
 
-.photodish {}
+.photodish {text-align: center; margin-top: 15px;}
 .descr {font-family: 'Yantramanav', sans-serif;
 font-size:14px;
-  flex: 1;
 }
 
 
