@@ -313,8 +313,8 @@ cursor: pointer; font-size: 55px;
 
 .BACK {background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_X2.svg)}
 
-.FCBK {
-/*background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_FCBK2.svg);*/
+/*.FCBK {
+/*background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_FCBK2.svg);
 }
 
 .TWITTER {
@@ -326,7 +326,7 @@ background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICON
 
 .MAIL {
 background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_MAIL.svg);
-}	
+}	*/
 
 /*BOTON TEXT ME*/
 .text-me {
