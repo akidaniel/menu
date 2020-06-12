@@ -515,7 +515,7 @@ font-size:14px;
 }
 
 
-.menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%;}
+.menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding-bottom: 0;}
 
 .lastline {border:none; text-align:center; background:;}
 
