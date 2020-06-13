@@ -37,7 +37,7 @@ margin:0; padding: 0 20px; background:url(https://images.assetsdelivery.com/comp
 /*TEXTOS*/
 
 .SUBTITULO{font-size:3rem;
-margin-bottom:0.5rem;
+margin:3rem 0 0.5rem 0;
 text-align:center;
 line-height: 3rem;}
 
