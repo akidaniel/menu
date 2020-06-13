@@ -24,6 +24,9 @@ table {border-collapse: collapse;}
  
 ul, li {margin:0; padding:0;}
 
+.pagina {box-sizing:border-box;
+padding:0;
+margin:0; padding: 0 20px; background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_seamless1502/ihor_seamless150200211.jpg)}
  
 .CONTAINER {
 margin-right: auto;
@@ -480,7 +483,7 @@ text-align: center;}
 
 /*MENU*/
 
-.pagina {padding: 0 20px; background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_seamless1502/ihor_seamless150200211.jpg)}
+
 
 
 
