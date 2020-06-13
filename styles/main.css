@@ -519,8 +519,8 @@ font-size:18px;
 font-size:14px; text-align:center; margin-top: 5px 0;
 }
 
-.descr span {color: red}
-.descr span span {color: #004AFF}
+.descr span {color: #803a30}
+.descr span span {color: #354c86}
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding-bottom: 0;}
 
 .lastline {border:none; text-align:center; background:;}
