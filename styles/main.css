@@ -182,54 +182,9 @@ font-size:14px; text-align:center; margin: 5px 0; line-height: 125%;
 .lastline {border:none; text-align:center; background:;}
 
 
-@media only screen and (min-width:100px) and (max-width: 350px) {/* and (min-height:320px)*/
-
-.DESTACADO {font-size: 1.2rem; line-height:1.2rem; margin-bottom:0.8rem}
-.GALERIA {margin: 0 1.2rem 0 1.2rem}
-.text-me {top: 6.6rem;
-width: 3rem;}
-div.icono {max-width: 90%;}
-.iconocenter {margin-left: 13%;}
-.cuarto {margin-left: 0.8rem;}
-div.iconomedio {min-width:100%}
-div.iconomedio:after {
-position:absolute;
-content:" ";
-left:0;
-top:0;
-width:100%;
-bottom:0;
-z-index:9999;
-}
-#FORMPHONE {display:block}
-.FIRST {margin-top:1rem}
-.SLIDER {
-    align-items: middle;
-    left: 50%;
-}
-h4 {text-align: center;}
-
-.CATALOGOS {padding-top:120px}
-.SPECIAL {padding-top: 400px;} 
-
-.fling-minislide {text-align:left; }
-.fling-minislide figure {margin: 0 auto;}
-}
-@media only screen and (min-width:351px) and (max-width: 420px) {/* and (min-height:490px)*/
 
 
-
-.SUBTITULO {margin-top: 5rem;}
-
-
-}
-
-@media only screen and (min-width:421px) and (max-width: 600px) {
-
-.SUBTITULO {margin-top: 5rem;}
-
-}
-@media only screen and (min-width:601px) and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
 
 .SUBTITULO {margin-top: 5rem;}
 
@@ -251,11 +206,7 @@ display: block;
 .FCBK, .TWITTER, .GPLUS, .MAIL, .HOME, .BACK, .INSTA {
 margin-bottom:16px;
 }
-div.icono {
-float: left;
-}
-div.iconomedio {min-width:33%}
-#FORM {display:block}
+
 }
 
 
