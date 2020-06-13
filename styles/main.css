@@ -516,10 +516,11 @@ font-size:18px;
 .dish-3 {text-align: center; margin-top: 15px; width:190px;}
 
 .descr {font-family: 'Yantramanav', sans-serif;
-font-size:14px; text-align:center; margin-top: 5px;
+font-size:14px; text-align:center; margin-top: 5px 0;
 }
 
-
+.descr span {color: red}
+.descr span span {color: #004AFF}
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding-bottom: 0;}
 
 .lastline {border:none; text-align:center; background:;}
