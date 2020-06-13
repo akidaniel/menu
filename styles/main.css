@@ -113,11 +113,11 @@ background-image: url(https://akidaniel.github.io/menu/imagenes/bt_mail.png);
 
 
 .MAIL:hover, .TWITTER:hover, .FCBK:hover, .INSTA:hover, .BACK:hover, .HOME:hover, .pre:hover, .post:hover {
--moz-filter: hue-rotate(0deg) saturate(0.6) brightness(2);
--o-filter: hue-rotate(0deg) saturate(0.6) brightness(2);
--ms-filter: hue-rotate(0deg) saturate(0.6) brightness(2);
--webkit-filter:hue-rotate(0deg) saturate(0.6) brightness(2);
-filter:hue-rotate(0deg) saturate(0.6) brightness(2);
+-moz-filter: hue-rotate(0deg) saturate(0.6) brightness(5);
+-o-filter: hue-rotate(0deg) saturate(0.6) brightness(5);
+-ms-filter: hue-rotate(0deg) saturate(0.6) brightness(5);
+-webkit-filter:hue-rotate(0deg) saturate(0.6) brightness(5);
+filter:hue-rotate(0deg) saturate(0.6) brightness(5);
 }
 
 
