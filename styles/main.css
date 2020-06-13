@@ -300,9 +300,10 @@ margin-left: -8.75rem;
 margin-top:0.5625rem;
 width: 17.5rem;*/
 display: flex;
-justify-content: space-between;
+justify-content: space-evenly;
 z-index: 9500;
-margin:15px auto;}
+margin:15px auto;
+width:100%;}
 
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME {
