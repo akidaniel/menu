@@ -482,24 +482,20 @@ text-align: center;}
 
 .pagina {padding: 0 20px; background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_seamless1502/ihor_seamless150200211.jpg)}
 
-// Var
-$brandbg: #FF7070;
-$lightbg: #FFF;
-$brandbg--light: #FFD4D4;
-$darkbg: #555;
+/** Var**/
 $unit: rem;
 $horz-spacing: 1;
 $vert-spacing: 1.75rem;
 $grid-gutter: $horz-spacing+$unit;
 $multiplier: $horz-spacing;
 $cols: 6;
-// Placeholder
+/**Placeholder**/
 %flex-dish {
 	background: $lightbg;
 	min-width: min-content;
 	display: flex;
 }
-// Mixin
+/**Mixin**/
 @for $i from 1 through $cols {
 	.dish-#{$i} {
 		flex: 0 0 calc(#{100% / $i} - #{(($i)-1)/($i)*$multiplier}#{$unit});
