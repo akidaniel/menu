@@ -534,6 +534,7 @@ font-size:14px; text-align:center; margin: 5px 0; line-height: 125%;
     color: white;
     bottom: 30px; left: 80px;}
 
+.pricex3 {left: 40px;}
 .lastline {border:none; text-align:center; background:;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
