@@ -156,9 +156,9 @@ font-size:18px;
   text-align:right;
 }
 
-.dish-2 {text-align: center; margin-top: 15px; width:270px;}
-.dish-3 {text-align: center; margin-top: 15px; width:190px;}
-.dish-3 img {max-width: 170px;}
+.dish-2 {text-align: center; margin-top: 15px; width:49%;}
+.dish-3 {text-align: center; margin-top: 15px; width:32%;}
+.dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .descr {font-family: 'Yantramanav', sans-serif;
 font-size:14px; text-align:center; margin: 5px 0; line-height: 125%;
 
