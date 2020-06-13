@@ -50,7 +50,7 @@ position:absolute;
 top:0;
 left: 0;
 display: flex;
-justify-content: space-evenly;
+justify-content: center;
 z-index: 9500;
 margin:2rem 0 1rem 0;
 width:100%;}
@@ -64,7 +64,7 @@ height:3.125rem;
 background-repeat:no-repeat;
 cursor: pointer;
 background-size:contain;
-margin: 0 20px;
+margin: 0 15px;
 }
 .HOME {background-image: url(https://akidaniel.github.io/menu/imagenes/bt_fcbk.png)}
 
