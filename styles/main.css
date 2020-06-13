@@ -49,13 +49,10 @@ line-height: 3rem;}
 position:absolute;
 top:0;
 left: 0;
-margin-left: -8.75rem;
-margin-top:0.5625rem;
-width: 17.5rem;*/
 display: flex;
 justify-content: space-evenly;
 z-index: 9500;
-margin:15px auto;
+margin:2rem 0 1rem 0;
 width:100%;}
 
 /*BOTON SOCIAL*/
@@ -67,6 +64,7 @@ height:3.125rem;
 background-repeat:no-repeat;
 cursor: pointer;
 background-size:contain;
+margin: 0 20px;
 }
 .HOME {background-image: url(https://akidaniel.github.io/menu/imagenes/bt_fcbk.png)}
 
@@ -203,7 +201,7 @@ margin-left: 0px;
 display: block;
 }
 .FCBK, .TWITTER, .GPLUS, .MAIL, .HOME, .BACK, .INSTA {
-margin-bottom:16px;
+margin: 0 0 16px;
 }
 
 }
