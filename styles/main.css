@@ -110,6 +110,7 @@ background-image: url(https://akidaniel.github.io/menu/imagenes/bt_mail.png);
 	right: 1.25rem;
 	bottom: 1.25rem;
 	background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;
+	background-size: contain;
 }
 
 
