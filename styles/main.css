@@ -360,11 +360,11 @@ background-image: url(https://akidaniel.github.io/menu/imagenes/bt_mail.png);
 
 
 .MAIL:hover, .GPLUS:hover, .TWITTER:hover, .FCBK:hover, .INSTA:hover, .BACK:hover, .HOME:hover, .pre:hover, .post:hover {
--moz-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
--o-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
--ms-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
--webkit-filter:hue-rotate(0deg) saturate(0.2) brightness(3);
-filter:hue-rotate(0deg) saturate(0.2) brightness(3);
+-moz-filter: hue-rotate(0deg) saturate(0.2) brightness(1);
+-o-filter: hue-rotate(0deg) saturate(0.2) brightness(1);
+-ms-filter: hue-rotate(0deg) saturate(0.2) brightness(1);
+-webkit-filter:hue-rotate(0deg) saturate(0.2) brightness(1);
+filter:hue-rotate(0deg) saturate(0.2) brightness(1);
 }
 
 /*BOTONES SLIDER*/
