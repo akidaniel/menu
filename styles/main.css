@@ -170,9 +170,9 @@ text-decoration:none;
 .SUBTITULO{font-size:3rem;
 /*white-space:nowrap;*/
 margin-bottom:0.5rem;
-color: #747691;
 text-align:center;
 line-height: 3rem;}
+
 .NAME {margin-bottom:0.1rem;
 font-weight:400;
 font-size:2.5rem;
@@ -292,13 +292,14 @@ border-radius: 2px;
 .SOCIAL {
 position:absolute;
 top:0;
-left: 50%;
+/*left: 50%;
 margin-left: -8.75rem;
 margin-top:0.5625rem;
-width: 17.5rem;
+width: 17.5rem;*/
 display: flex;
 justify-content: space-between;
-z-index: 9500;}
+z-index: 9500;
+margin:15px auto;}
 
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME {
@@ -469,8 +470,7 @@ right: 4rem;}
 #FORMPHONE  {display:none; position: relative; margin: 0 auto;
 text-align: center;}
 
-.CATALOGOS {display:none; padding-top: 70px;}
-.CATALOGOS:target {display:block}
+
 
 
 /*MINI SLIDER*/
@@ -487,14 +487,14 @@ text-align: center;}
 .flexbox {
   display: flex;
   max-width: 580px;
-   min-width: 520px;
+   min-width: 390px;
   margin: 0 auto;
 }
 .lista {
 justify-content: space-evenly;
 } 
 
-.menuitemcontainer {max-width: 580px; min-width: 520px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
+.menuitemcontainer {max-width: 580px; min-width: 390px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
 .menuitem {max-width: 580px; font-family: 'Berkshire Swash', cursive;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
