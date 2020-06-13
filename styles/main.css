@@ -513,7 +513,10 @@ $cols: 6;
   max-width: 580px;
   margin: 0 auto;
 }
-.dish-2  {} 
+.dish-2 {margin: $vert-spacing 0;
+display: flex;
+justify-content: space-between;
+} 
 
 .menuitemcontainer {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
 .menuitem {max-width: 580px; font-family: 'Berkshire Swash', cursive;
@@ -534,7 +537,7 @@ font-size:18px;
   text-align:right;
 }
 
-.photodish {text-align: center; margin-top: 15px; justify-content: space-between;}
+.photodish {text-align: center; margin-top: 15px;}
 .descr {font-family: 'Yantramanav', sans-serif;
 font-size:14px;
 }
