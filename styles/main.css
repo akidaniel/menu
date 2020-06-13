@@ -314,23 +314,23 @@ height:3.125rem;
 background-repeat:no-repeat;
 cursor: pointer;
 }
-.HOME {background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_INICIO.svg)}
+.HOME {background-image: url(https://akidaniel.github.io/menu/imagenes/bt_fcbk.png)}
 
 .BACK {background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_X2.svg)}
 
 .FCBK {
-background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_FCBK2.svg);
+background-image: url(https://akidaniel.github.io/menu/imagenes/bt_fcbk.png);
 }
 
 .TWITTER {
-background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TWITTER2.svg);
+background-image: url(https://akidaniel.github.io/menu/imagenes/bt_twit.png);
 }
 
-.INSTA {background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_INICIO.svg)
+.INSTA {background-image: url(https://akidaniel.github.io/menu/imagenes/bt_insta.png)
 }
 
 .MAIL {
-background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_MAIL.svg);
+background-image: url(https://akidaniel.github.io/menu/imagenes/bt_mail.png);
 }
 
 /*BOTON TEXT ME*/
