@@ -516,7 +516,7 @@ font-size:18px;
 .dish-3 {text-align: center; margin-top: 15px; width:190px;}
 
 .descr {font-family: 'Yantramanav', sans-serif;
-font-size:14px;
+font-size:14px; text-align:center; margin-top: 5px;
 }
 
 
