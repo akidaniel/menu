@@ -522,7 +522,17 @@ font-size:14px; text-align:center; margin: 5px 0; line-height: 125%;
 
 .descr span {color: #860f00;}
 .descr span span {color: #00219c}
-.menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding-bottom: 0;}
+.menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%;}
+.price {position: relative;
+ font-family: 'Yantramanav', sans-serif;
+ font-size: 18px; -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    padding: 4px 10px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    bottom: 30px; left: 80px;}
 
 .lastline {border:none; text-align:center; background:;}
 
