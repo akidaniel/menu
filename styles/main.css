@@ -513,8 +513,7 @@ $cols: 6;
   max-width: 580px;
   margin: 0 auto;
 }
-.dish-2 {margin: $vert-spacing 0;
-display: flex;
+.lista {margin: $vert-spacing 0;
 justify-content: space-between;
 } 
 
@@ -537,7 +536,7 @@ font-size:18px;
   text-align:right;
 }
 
-.photodish {text-align: center; margin-top: 15px;}
+.dish-2 {text-align: center; margin-top: 15px;}
 .descr {font-family: 'Yantramanav', sans-serif;
 font-size:14px;
 }
