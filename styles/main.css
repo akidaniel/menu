@@ -228,10 +228,10 @@ background-color:#ffffff;
 position: absolute;
 min-width: 500px;
 max-width: 580px;
--moz-border-radius: 20px;
+/**-moz-border-radius: 20px;
 -webkit-border-radius: 20px;
-border-radius: 20px;
-border:solid 1px #686868;
+border-radius: 20px;**/
+border:solid 2px #B5B5B5;
 cursor: zoom-out;
 margin: 0;
 z-index: 9998;
