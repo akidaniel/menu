@@ -61,7 +61,7 @@
 $(document).ready(function() {
 
 var display = function(block_name) {
-  $('.SUBTITULO, .menuitem, .descr, .BUTTON').css('display', 'none');
+  $('.SUBTITULO, .menuitem, .descr, .listado').css('display', 'none');
   $('#' + block_name).css('display', 'block');
   $('.' + block_name).css('display', 'block');
 }
@@ -498,8 +498,6 @@ $('.FR').on('click', function() {
 <p class="descr LUK">Glass of lemon ice cream served with cava</p>
 <p class="descr LFR">Verre de glace au citron servi avec du cava<p>
 </div>
-
-
 </div>
 
 <div class="flexbox lista">
@@ -608,20 +606,19 @@ $('.FR').on('click', function() {
 <div class="menuitem LUK">Drinks <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 <div class="menuitem LFR">Les boissons <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 
-
-<div class="flexbox">
-<div class="principal">Coca cola - Coca cola Light - Zero</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="listado LES">
+<div class="flexbox"><div class="principal">Coca cola - Coca cola Light - Zero</div><div class="principal precio">1,80&nbsp;€</div></div>
 <div class="flexbox"><div class="principal">Ice Tea</div><div class="principal precio">1,80&nbsp;€</div></div>
-<div class="flexbox"><div class="principal">Fanta<br>Naranja - Limón/Orange - Lemon/Orange - Citron</div><div class="principal precio">1,80&nbsp;€</div></div>
-<div class="flexbox"><div class="principal">Shwepppes<br>Naranja - Limón/Orange - Lemon/Orange - Citron</div><div class="principal precio">1,20&nbsp;€</div></div>
-<div class="flexbox"><div class="principal">Agua/Eau/Water</div><div class="principal precio">1,50&nbsp;€</div></div>
-<div class="flexbox"><div class="principal">Agua con gas/Soda water/Eau gazeuse</div><div class="principal precio">1,75&nbsp;€</div></div>
-<div class="flexbox" ><div class="principal" style="border:none">Zumos de frutas / Fruit juice / Jus de fruit</div><div class="principal precio" style="border:none">&nbsp;&nbsp;3&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Fanta Naranja - Limón</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Shwepppes Naranja - Limón</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Agua</div><div class="principal precio">1,50&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Agua con gas</div><div class="principal precio">1,75&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Zumos de frutas</div><div class="principal precio" style="border:none">&nbsp;&nbsp;3&nbsp;€</div></div>
 <div class="flexbox"><div class="principal">Caña</div><div class="principal precio">1,30&nbsp;€</div></div>
 <div class="flexbox"><div class="principal">Pinta</div><div class="principal precio">1,80&nbsp;€</div></div>
 <div class="flexbox"><div class="principal">Jarra 1/2</div><div class="principal precio">2,50&nbsp;€</div></div>
 <div class="flexbox"><div class="principal">Jarra 1l</div><div class="principal precio">&nbsp;&nbsp;4&nbsp;€</div></div>
-<div class="flexbox"><div class="principal">Clara / Lemon Beer / Panaché</div><div class="principal precio">1,75&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Clara</div><div class="principal precio">1,75&nbsp;€</div></div>
 <div class="flexbox" ><div class="principal">San Miguel</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
 <div class="flexbox" ><div class="principal">Estrella</div><div class="principal precio">1,80&nbsp;€</div></div>
 <div class="flexbox" ><div class="principal">Heineken</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
@@ -629,11 +626,63 @@ $('.FR').on('click', function() {
 <div class="flexbox" ><div class="principal">Heineken</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
 <div class="flexbox" ><div class="principal">San Miguel 0/0%</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
 <div class="flexbox" ><div class="principal">Coronita</div><div class="principal precio">2,35&nbsp;€</div></div>
-<div class="flexbox" ><div class="principal">Copa de vino / Glass of wine / Verre de vine</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Copa de vino</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
 <div class="flexbox" ><div class="principal">Martini Bianco – Rosso</div><div class="principal precio">2,70&nbsp;€</div></div>
-<div class="flexbox" ><div class="principal"  style="border:none">Sangra de vino / Wine sangria / Sangria au vin 1l</div><div class="principal precio" style="border:none">3,50&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal"  style="border:none">Sangría de vino 1l</div><div class="principal precio" style="border:none">3,50&nbsp;€</div></div>
+</div>
 
-<div class="menuitem lastline"></div>
+<div class="listado LUK">
+<div class="flexbox"><div class="principal">Coca cola - Coca cola Light - Zero</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Ice Tea</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Fanta Orange - Lemon</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Shwepppes Orange - Lemon</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Water</div><div class="principal precio">1,50&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Soda water</div><div class="principal precio">1,75&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Fruit juice</div><div class="principal precio" style="border:none">&nbsp;&nbsp;3&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Beer glass</div><div class="principal precio">1,30&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Pint</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Beer Jar 1/2</div><div class="principal precio">2,50&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Beer Jar 1l</div><div class="principal precio">&nbsp;&nbsp;4&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Lemon Beer</div><div class="principal precio">1,75&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">San Miguel</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Estrella</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Heineken</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Alahambra</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Heineken</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">San Miguel 0/0%</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Coronita</div><div class="principal precio">2,35&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Glass of wine</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Martini Bianco – Rosso</div><div class="principal precio">2,70&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal"  style="border:none">Wine sangria 1l</div><div class="principal precio" style="border:none">3,50&nbsp;€</div></div>
+</div>
+
+
+<div class="listado LFR">
+<div class="flexbox"><div class="principal">Coca cola - Coca cola Light - Zero</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Ice Tea</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Fanta Orange - Citron</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Shwepppes Orange - Citron</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Eau</div><div class="principal precio">1,50&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Eau gazeuse</div><div class="principal precio">1,75&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Jus de fruit</div><div class="principal precio" style="border:none">&nbsp;&nbsp;3&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Verre de bière</div><div class="principal precio">1,30&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Pinta</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Carafe 1/2</div><div class="principal precio">2,50&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Carafe 1l</div><div class="principal precio">&nbsp;&nbsp;4&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Panaché</div><div class="principal precio">1,75&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">San Miguel</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Estrella</div><div class="principal precio">1,80&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Heineken</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Alahambra</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Heineken</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">San Miguel 0/0%</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Coronita</div><div class="principal precio">2,35&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Verre de vine</div><div class="principal precio">&nbsp;&nbsp;2&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal">Martini Bianco – Rosso</div><div class="principal precio">2,70&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal"  style="border:none">Sangria au vin 1l</div><div class="principal precio" style="border:none">3,50&nbsp;€</div></div>
+</div>
+
+<div class="menuitem lastline LES LUK LFR"></div>
 
 </div>
 <!--FIN CUADRO BEBIDAS-->
@@ -647,32 +696,38 @@ $('.FR').on('click', function() {
 <div class="menuitem LUK">Coffees <i class="fas fa-coffee" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 <div class="menuitem LFR">Les Cafés <i class="fas fa-coffee" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 
+<div class="listado LES">
+<div class="flexbox"><div class="principal">Espresso</div><div class="principal precio">1,10&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Café americano</div><div class="principal precio">1,25&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Descafeinado</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Cortado</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Con leche</div><div class="principal precio">1,50&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Cacao</div><div class="principal precio">1,95&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal" style="border:none">Carajillo</div><div class="principal precio" style="border:none">1,90&nbsp;€</div></div>
+</div>
+<div class="listado LUK">
+<div class="flexbox"><div class="principal">Espresso</div><div class="principal precio">1,10&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">American coffee</div><div class="principal precio">1,25&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Decaf</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Espresso with milk</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Coffee with milk</div><div class="principal precio">1,50&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Chocolate</div><div class="principal precio">1,95&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal" style="border:none">Carajillo</div><div class="principal precio" style="border:none">1,90&nbsp;€</div></div>
+</div>
+<div class="listado LFR">
+<div class="flexbox"><div class="principal">Espresso</div><div class="principal precio">1,10&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Café américain</div><div class="principal precio">1,25&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Décaféiné</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Noisette</div><div class="principal precio">1,20&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Café crème</div><div class="principal precio">1,50&nbsp;€</div></div>
+<div class="flexbox"><div class="principal">Chocolat</div><div class="principal precio">1,95&nbsp;€</div></div>
+<div class="flexbox" ><div class="principal" style="border:none">Carajillo</div><div class="principal precio" style="border:none">1,90&nbsp;€</div></div>
+</div>
 
-<div class="flexbox">
-  <div class="principal">Espresso</div>
-  <div class="principal precio">1,10&nbsp;€</div>
-</div>
-<div class="flexbox"><div class="principal">Café americano / Café américain / American coffee</div>
-<div class="principal precio">1,25&nbsp;€</div>
-</div>
-<div class="flexbox"><div class="principal">Descafeinado / Décaféiné / Decaf</div>
-<div class="principal precio">1,20&nbsp;€</div>
-</div>
-<div class="flexbox"><div class="principal">Cortado / Noisette / Espresso with milk</div>
-<div class="principal precio">1,20&nbsp;€</div>
-</div>
-<div class="flexbox"><div class="principal">Con leche / Café crème / With milk</div>
-<div class="principal precio">1,50&nbsp;€</div>
-</div>
-<div class="flexbox"><div class="principal">Cacao / Chocolat / Chocolate</div>
-<div class="principal precio">1,95&nbsp;€</div>
-</div>
-<div class="flexbox" ><div class="principal" style="border:none">Carajillo</div>
-<div class="principal precio" style="border:none">1,90&nbsp;€</div>
-</div>
-<div class="menuitem lastline"></div>
+<div class="menuitem lastline LES LUK LFR"></div>
 
 </div>
+
 <!--FIN CUADRO CAFES-->
 <div class="address">C/ Angosto, 18 - 23520 - Begíjar <i class="fas fa-phone-alt"></i> 716 038 056 <i class="fab fa-whatsapp"> 611 111 111</i>
 
