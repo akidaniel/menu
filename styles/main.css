@@ -181,7 +181,11 @@ font-size:18px; text-align:center; margin: 5px 0; line-height: 125%;
     background-color: red;
     font-weight: bold;
     color: white;
-    bottom: 30px; left: 40px;}
+    bottom: 30px;
+    left: 60%;
+    display: block;
+    width: 50px;
+    text-align: center;}
 
 .pricex3 {left: 0px;}
 .address {font-family: 'Yantramanav', sans-serif; font-size: 14px; text-align: center; margin: 15px auto}
@@ -219,7 +223,23 @@ z-index:222;}
 .ES {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/spain.png);}
 .FR {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/france.png);}
 
+.expandish {
+background-color:#ffffff;
+position: absolute;
+min-width: 500px;
+max-width: 580px;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+border:solid 1px #686868;
+cursor: zoom-out;
+margin: 0;
+z-index: 9998;
 }
+
+.expandish img {width: 300px; padding: 15px 0 0 0;}
+
+
 
 
 @media only screen and (max-width: 900px) {
@@ -228,6 +248,7 @@ z-index:222;}
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
 .UK, .ES, .FR {margin: 0 1rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 4.15rem;}
+.expandish {min-width: 98%;}
 
 }
 

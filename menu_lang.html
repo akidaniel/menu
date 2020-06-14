@@ -88,7 +88,7 @@ $('.dish-2, .dish-3').click(function() {
 
 /*$('img').bind('contextmenu', function(e) {
     return false;
-}); */
+});*/ 
 
 $('.dish-2, .dish-3').mouseleave(function() {
   $(this).removeClass('expandish')
@@ -98,31 +98,6 @@ $('.dish-2, .dish-3').mouseleave(function() {
 
 </script>
 
-<style>
-
-.expandish {
-background-color:#ffffff;
-position: absolute;
-justify-content: center;
-min-width: 500px;
--moz-border-radius: 20px;
--webkit-border-radius: 20px;
-border-radius: 20px;
-border:solid 1px #686868;
-cursor: zoom-out;
-margin: 0;
-z-index: 9998;
-}
-
-
-.expandish img {width: 300px; padding-top: 15px;}
-
-
-@media only screen and (max-width: 900px) {
-	
-.expandish {min-width: 98%;}
-}
-</style>
 
 </head >
 <body class="pagina" style="overflow:visible" yahoo="fix">
@@ -202,7 +177,8 @@ z-index: 9998;
 
 <div class="flexbox lista">
 
-<div class="dish-2"><img src="https://akidaniel.github.io/menu/imagenes/dish01.png" alt="Sopa" border="0" style="margin: 0 auto"><span class="price">6,50&nbsp;€</span>
+<div class="dish-2">
+<img src="https://akidaniel.github.io/menu/imagenes/dish01.png" alt="Sopa" border="0" style="margin: 0 auto"><span class="price">6,50&nbsp;€</span>
 <p class="menuitem plato LES">Sopa de pescado</p>
 <p class="menuitem plato LUK">Fish soup</p>
 <p class="menuitem plato LFR">Soupe de poisson</p>
