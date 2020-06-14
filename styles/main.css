@@ -166,12 +166,11 @@ font-size:18px;
 .dish-3 {text-align: center; margin-top: 15px; width:32%;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .descr {font-family: 'Yantramanav', sans-serif;
-font-size:14px; text-align:center; margin: 5px 0; line-height: 125%;
+font-size:18px; text-align:center; margin: 5px 0; line-height: 125%;
 
 }
 
-.descr span {color: #860f00;}
-.descr span span {color: #00219c}
+
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
  font-family: 'Yantramanav', sans-serif;
