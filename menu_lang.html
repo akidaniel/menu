@@ -57,9 +57,30 @@
 
 <title>Menú HTML</title>
 
-<style>
+<script>
+$(document).ready(function() {
 
-</style>
+var display = function(block_name) {
+  $('.SUBTITULO, .menuitem, .etiqueta, .BUTTON').css('display', 'none');
+  $('#' + block_name).css('display', 'block');
+  $('.' + block_name).css('display', 'block');
+}
+
+$('.UK').on('click', function() {
+  display('LUK', $(this));
+});
+
+$('.ES').on('click', function() {
+  display('LES', $(this));
+});
+
+$('.FR').on('click', function() {
+  display('LFR', $(this));
+});
+});
+</script>
+
+
 
 </head >
 <body class="pagina" style="overflow:visible" yahoo="fix">
@@ -108,17 +129,34 @@
     <!--<i class="visuallyhidden">share via email</i>-->
 </a>
 </div>
-<div class="SUBTITULO" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menú Restaurant</div>
 
+
+<!--CUADRO LANGUES-->
+
+<div class="BOTONERA">
+<input type="checkbox" id="menu_lang_id" class="menu_lang">
+<label for="menu_lang_id" class="" onclick="if(document.getElementById('menu_lang_id').value) document.getElementById('menu_share_id').checked = false; if(document.getElementById('menu_lang_id').value) document.getElementById('menu_buy_id').checked = false;">
+</label>
+<a class="ES link_general" href="#">
+</a>
+<a class="UK link_general" href="#">
+</a>
+<a class="FR link_general" href="#">
+</a>
+</div>
+
+
+<header id="LES" class="SUBTITULO LES" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menú Restaurant</header>
+<header id="LUK" class="SUBTITULO LUK" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Restaurant Menu</header>
+<header id="LFR" class="SUBTITULO LFR" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menu du Restaurant</header>
 <!--CUADRO ENTRANTES-->
 
-
 <div class="menuitemcontainer">
+<div class="menuitem topimage LES LUK LFR" style="background-image: url(https://akidaniel.github.io/menu/imagenes/resto.jpg); height:250px; "></div>
 
-<div class="menuitem topimage" style="background-image: url(https://akidaniel.github.io/menu/imagenes/resto.jpg); height:250px; "></div>
-
-
-<div  class="menuitem">Entrantes • Appetizers • Entrées <i class="fas fa-pepper-hot" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LES">Entrantes <i class="fas fa-pepper-hot" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Appetizers <i class="fas fa-pepper-hot" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Entrées <i class="fas fa-pepper-hot" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 
 <div class="flexbox lista">
 <div class="dish-2"><img src="https://akidaniel.github.io/menu/imagenes/dish01.png" alt="Sopa"width=""border="0" style="margin: 0 auto"><span class="price">6,50&nbsp;€</span>
@@ -217,7 +255,9 @@
 <!--CUADRO DISHES-->
 <div class="menuitemcontainer">
 
-<div  class="menuitem">Platos principales • Main Course • Plats principaux <i class="fas fa-utensils" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LES">Platos principales <i class="fas fa-utensils" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Main Course <i class="fas fa-utensils" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Plats principaux <i class="fas fa-utensils" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 
 <div class="flexbox lista">
 <div class="dish-2"><img src="https://akidaniel.github.io/menu/imagenes/dish19.png" alt=" "width=" "border="0" style="margin: 0 auto"><span class="price">13,50&nbsp;€</span>
@@ -314,7 +354,10 @@
 <!--CUADRO POSTRES-->
 <div class="menuitemcontainer">
 
-<div  class="menuitem">Postres • Desserts • Desserts <i class="fas fa-ice-cream" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LES">Postres <i class="fas fa-ice-cream" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Desserts <i class="fas fa-ice-cream" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Desserts <i class="fas fa-ice-cream" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+
 
 <div class="flexbox lista">
 <div class="dish-3"><img src="https://akidaniel.github.io/menu/imagenes/dess01.png" alt="" border="0" style="margin: 0 auto"><span class="price pricex3">&nbsp;&nbsp;3&nbsp;€</span>
@@ -405,7 +448,11 @@
 <!--CUADRO BEBIDAS-->
 <div class="menuitemcontainer">
 
-<div  class="menuitem">Bebidas • Drinks • Les boissons <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LES">Bebidas <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Drinks <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Les boissons <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+
+
 <div class="flexbox">
 <div class="principal">Coca cola - Coca cola Light - Zero</div><div class="principal precio">1,80&nbsp;€</div></div>
 <div class="flexbox"><div class="principal">Ice Tea</div><div class="principal precio">1,80&nbsp;€</div></div>
@@ -440,7 +487,11 @@
 <!--CUADRO CAFES-->
 <div class="menuitemcontainer">
 
-<div  class="menuitem">Cafés • Coffees • Les Cafés <i class="fas fa-coffee" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LES">Cafés <i class="fas fa-coffee" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Coffees <i class="fas fa-coffee" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Les Cafés <i class="fas fa-coffee" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+
+
 <div class="flexbox">
   <div class="principal">Espresso</div>
   <div class="principal precio">1,10&nbsp;€</div>

@@ -37,7 +37,7 @@ background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_
 /*TEXTOS*/
 
 .SUBTITULO{font-size:3rem;
-margin:3rem 0 0.5rem 0;
+margin:3rem 0 1rem 0;
 text-align:center;
 line-height: 3rem;}
 
@@ -136,6 +136,13 @@ margin: 0 auto;
 .lista {
 justify-content: space-evenly;
 } 
+.languecontainer {position:absolute;
+top:0;
+display: flex;
+justify-content: center;
+z-index: 9500;
+margin:2rem 0 1rem 0;
+width:100%;}
 
 .menuitemcontainer {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
 .menuitem { font-family: 'Berkshire Swash', cursive;
@@ -182,13 +189,47 @@ font-size:14px; text-align:center; margin: 5px 0; line-height: 125%;
 .address {font-family: 'Yantramanav', sans-serif; font-size: 14px; text-align: center; margin: 15px auto}
 .lastline {border:none; text-align:center; background:;}
 
+/*LANGUE*/
+.BOTONERA {display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+justify-content: center;
+width:100%;
+position:relative;
+}
 
+#LES {display:block;}
+.LUK, .LFR {display:none;}
+.LES {display:block;}
+
+.menu_lang {display: none;}
+.menu_lang:checked ~ label .BUTTON {color: #c2c;}
+
+.UK, .ES, .FR {
+display:block;
+text-indent:-625rem;
+width:4rem;
+height:4rem;
+background-repeat:no-repeat;
+background-size:contain;
+cursor: pointer;
+margin: 0 2rem;
+top: 0,5rem;
+z-index:222;}
+.UK {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/uk.png);}
+.ES {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/spain.png);}
+.FR {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/france.png);}
+
+}
 
 
 @media only screen and (max-width: 900px) {
 
 .SUBTITULO {margin-top: 6rem;}
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
+.UK, .ES, .FR { top: 6rem; margin: 0 1rem; width: 3rem;}
 
 }
 
