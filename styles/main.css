@@ -23,9 +23,9 @@ text-align:left;
 
 .pagina {box-sizing:border-box;
 padding:0;
-margin:0; background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_seamless1502/ihor_seamless150200211.jpg)}
+background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_seamless1502/ihor_seamless150200211.jpg)}
  
-.wrapper {overflow-x:hidden; width:100%; position: relative; padding: 0 10px;}
+.wrapper {overflow-x:hidden; position: relative;}
 
 .CENTER {
   -ms-flex-pack: center;
