@@ -244,11 +244,12 @@ z-index: 9998;
 
 @media only screen and (max-width: 900px) {
 
-.SUBTITULO {margin-top: 6rem;}
+.SUBTITULO {margin-top: 4rem;}
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
 .UK, .ES, .FR {margin: 0 1rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 4.15rem;}
 .expandish {min-width: 98%;}
+.expandish .pricex3 {left:60%}
 
 }
 
