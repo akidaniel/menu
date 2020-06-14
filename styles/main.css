@@ -25,7 +25,7 @@ text-align:left;
 padding:0;
 background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_seamless1502/ihor_seamless150200211.jpg)}
  
-.wrapper {overflow-x:hidden; position: relative;}
+.wrapper {overflow-x:hidden; position: relative; padding: 0 3px;}
 
 .CENTER {
   -ms-flex-pack: center;
@@ -188,6 +188,7 @@ font-size:14px; text-align:center; margin: 5px 0; line-height: 125%;
 @media only screen and (max-width: 900px) {
 
 .SUBTITULO {margin-top: 6rem;}
+.menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
 
 }
 
