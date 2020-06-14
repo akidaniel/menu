@@ -104,7 +104,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 background-color:#ffffff;
 position: absolute;
 justify-content: center;
-min-width: 98%;
+min-width: 500px;
 -moz-border-radius: 20px;
 -webkit-border-radius: 20px;
 border-radius: 20px;
@@ -116,6 +116,12 @@ z-index: 9998;
 
 
 .expandish img {width: 300px; padding-top: 15px;}
+
+
+@media only screen and (max-width: 900px) {
+	
+.expandish {min-width: 98%;}
+}
 </style>
 
 </head >
