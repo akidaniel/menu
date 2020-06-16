@@ -135,6 +135,11 @@ margin: 0 auto;
 .lista {
 justify-content: space-evenly;
 } 
+.preciolista {
+  flex: 0 0 80px;
+  text-align:right;
+}
+
 .languecontainer {position:absolute;
 top:0;
 display: flex;
