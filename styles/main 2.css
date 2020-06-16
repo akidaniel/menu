@@ -157,6 +157,10 @@ font-size:18px;
   padding: 5px 5px 2px 5px; border-bottom: 2px dotted #ccc;
   color:#454545;
 }
+.precio {
+  flex: 0 0 80px;
+  text-align:right;
+}
 
 .dish-2 {text-align: center; margin-top: 15px; width:49%;}
 .dish-3 {text-align: center; margin-top: 5px; width:32%;}
@@ -165,6 +169,7 @@ font-size:18px;
 font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 
 }
+
 
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
@@ -177,10 +182,10 @@ font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
     font-weight: bold;
     color: white;
     bottom: 30px;
-    left: 20%;
- /*display: block;
+    left: 60%;
+    display: block;
     width: 50px;
-    text-align: center;*/}
+    text-align: center;}
 
 .pricex3 {left: 0px; margin: 0 auto;}
 .address {font-family: 'Yantramanav', sans-serif; font-size: 14px; text-align: center; margin: 15px auto}
