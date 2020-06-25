@@ -83,24 +83,16 @@ $('.FR').on('click', function() {
 <script>
 $(document).ready(function() {
 $('.dish-2, .dish-3').click(function() {
-  $(this).toggleClass('expandish');
-    $(this).siblings(".show").toggle();
-	    $('.show').css('z-index', '11')
-
-
+  $(this).toggleClass('expandish')
 });
 
 /*$('img').bind('contextmenu', function(e) {
     return false;
-}); */
+});*/ 
 
 $('.dish-2, .dish-3').mouseleave(function() {
-  $(this).removeClass('expandish');
-	    $('.show').css('z-index', '0');
-			    $('.show').css('display', 'none');
-
+  $(this).removeClass('expandish')
 });
-
 
 });
 
@@ -119,7 +111,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
     color: black;
     left: 40px;
 }
-.dishnumber::after {position:relative; 
+	.dishnumber::after {position:relative; 
 		  content: "\2617"; color:blue; margin-left: -1.5em; z-index:-9999; display:none;
 }
 .expandish .dishnumber {
@@ -134,8 +126,6 @@ $('.dish-2, .dish-3').mouseleave(function() {
 .dishphoto {text-align:center}
 .expandish .dishphoto {margin: 15px 0 -10px;}
 .pricex3 {left:30%; }
-.dish-2, .dish-3 {z-index:10;}
-.expandish {z-index:12;}
 	
 @media only screen and (max-width: 900px) {
 .expandish {padding-bottom: 30px;}
@@ -148,15 +138,8 @@ $('.dish-2, .dish-3').mouseleave(function() {
 .pricex3 {left:5%;}
 .expandish .dishnumber {left: 20%}
 
-.layer {background-color: rgba(248, 247, 216, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
-.show {display:none;}
+
 }
 </style>
 
@@ -227,10 +210,8 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <header id="LES" class="SUBTITULO LES" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menú Restaurant</header>
 <header id="LUK" class="SUBTITULO LUK" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Restaurant Menu</header>
 <header id="LFR" class="SUBTITULO LFR" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menu du Restaurant</header>
-
 <!--CUADRO ENTRANTES-->
 <div class="menuitemcontainer">
-
 <div class="menuitem topimage LES LUK LFR" style="background-image: url(https://akidaniel.github.io/menu/imagenes/resto.jpg); height:250px; "></div>
 
 <div class="menuitem LES">Entrantes <i class="fas fa-pepper-hot" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
@@ -238,7 +219,6 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <div class="menuitem LFR">Entrées <i class="fas fa-pepper-hot" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 
 <div class="flexbox lista">
-<div class="layer show"></div>
 
 <div class="dish-2">
 <div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish01.png" alt="Sopa" border="0" ></div>
@@ -262,7 +242,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish03.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">03</span><span class="price">5,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Ensalada de cangrejo</p>
 <p class="menuitem plato LUK">Crab Salad</p>
@@ -283,7 +263,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish17.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">05</span><span class="price">5&nbsp;€</span></div>
   <p class="menuitem plato LES">Tostada de aguacate</p>
 <p class="menuitem plato LUK">Avocado toast</p>
@@ -303,7 +283,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish18.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">07</span><span class="price">4,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Ensalada de pimientos asados</p>
 <p class="menuitem plato LUK">Roasted pepper salad</p>
@@ -323,7 +303,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish20.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">09</span><span class="price">5,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Ensalada de legúmbres</p>
 <p class="menuitem plato LUK">Beans salad</p>
@@ -343,7 +323,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish11.png" alt="Ensalada" border="0" style="margin: 0 auto"></div><div><span class="dishnumber">11</span><span class="price">4,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Ensalada de salmón y aguacate</p>
 <p class="menuitem plato LUK">Salmon and Avocado Salad</p>
@@ -363,7 +343,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish16.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">13</span><span class="price">4,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Bol de arroz y marisco</p>
 <p class="menuitem plato LUK">Bowl of rice and seafood</p>
@@ -398,7 +378,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <div class="menuitem LUK">Main Course <i class="fas fa-utensils" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 <div class="menuitem LFR">Plats principaux <i class="fas fa-utensils" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish19.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">15</span><span class="price">13,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Caldereta de rape y marisco</p>
 <p class="menuitem plato LUK">Monkfish and seafood stew</p>
@@ -419,7 +399,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish27.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">17</span><span class="price">11,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Fideuá</p>
 <p class="menuitem plato LUK">Fideua</p>
@@ -440,7 +420,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish05.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">19</span><span class="price">8,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Pollo al horno</p>
 <p class="menuitem plato LUK">Baked chicken</p>
@@ -460,7 +440,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish07.png" alt=" "width=" "border="0" style="margin: 0 auto"></div><div><span class="dishnumber">21</span><span class="price">8&nbsp;€</span></div>
 <p class="menuitem plato LES">Salteado de carne y verduras</p>
 <p class="menuitem plato LUK">Sautéed meat and vegetables</p>
@@ -480,7 +460,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish09.png" alt="Salmón" border="0" style="margin: 0 auto"></div><div><span class="dishnumber">23</span><span class="price">7,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Salmón a la plancha</p>
 <p class="menuitem plato LUK">Grilled salmon</p>
@@ -498,7 +478,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <p class="descr LFR">Steak de boeuf de qualité supérieure avec sauce au poivre et frites</p></div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish15.png" alt="Hamburguesa" border="0" style="margin: 0 auto"></div><div><span class="dishnumber">25</span><span class="price">6,50&nbsp;€</span></div>
   <p class="menuitem plato LES">Hamburguesa completa</p>
 <p class="menuitem plato LUK">Special burger</p>
@@ -518,7 +498,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dish23.png" alt="Barbecue" border="0" style="margin: 0 auto"></div><div><span class="dishnumber">27</span><span class="price">15&nbsp;€</span></div>
 <p class="menuitem plato LES">Parrillada</p>
 <p class="menuitem plato LUK">Barbecue</p>
@@ -554,7 +534,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <div class="menuitem LFR">Desserts <i class="fas fa-ice-cream" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-3"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dess01.png" alt="" border="0" style="margin: 0 auto"></div><div><span class="dishnumber">P1</span><span class="price pricex3">3&nbsp;€</span></div>
 <p class="menuitem plato LES">Bola de helado</p>
 <p class="menuitem plato LUK">Ice cream ball</p>
@@ -583,7 +563,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-3"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dess04.png" alt="" border="0" style="margin: 0 auto"></div><div><span class="dishnumber">P4</span><span class="price pricex3">4,50&nbsp;€</span></div>
 <p class="menuitem plato LES">Tiramisu</p>
 <p class="descr LES">Porción</p>
@@ -614,7 +594,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </div>
 
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-3"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dess12.png" alt="" border="0" style="margin: 0 auto"></div><div><span class="dishnumber">P7</span><span class="price pricex3">3,50&nbsp;€</span></div>
 <p class="menuitem plato LES">Tarta helada Oreo</p>
 <p class="menuitem plato LUK">Oreo icecream cake</p>
@@ -645,7 +625,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 
 </div>
 
-<div class="flexbox lista"><div class="layer show"></div>
+<div class="flexbox lista">
 <div class="dish-3"><div class="dishphoto"><img src="https://akidaniel.github.io/menu/imagenes/dess07.png" alt="" border="0" style="margin: 0 auto"></div><div><span class="dishnumber">P10</span><span class="price pricex3">3&nbsp;€</span></div>
 <p class="menuitem plato LES">Bizcocho de vainilla</p>
 <p class="menuitem plato LUK">Vanilla biscuit</p>
