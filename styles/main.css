@@ -212,7 +212,7 @@ font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 	
 
 /*LANGUE*/
-.BOTONERA {display: -webkit-box;
+.BOTONERA, .cambiocontenido {display: -webkit-box;
 display: -moz-box;
 display: -ms-flexbox;
 display: -webkit-flex;
@@ -242,6 +242,19 @@ z-index:222;}
 .UK {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/uk.png);}
 .ES {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/spain.png);}
 .FR {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/france.png);}
+
+.plato, .vinos {	display: block;
+	width: 3.75rem;
+	height: 3.75rem;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 1.25rem;
+	bottom: 1.25rem;
+	
+	background-size: contain;}
+.plato {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
+.vinos {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
 
 .expandish {
 background-color:#ffffff;
