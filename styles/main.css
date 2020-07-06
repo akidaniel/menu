@@ -193,7 +193,7 @@ font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 
 .pricex3 {left: 30%; margin: 0 auto;}
 .address {font-family: 'Yantramanav', sans-serif; font-size: 14px; text-align: center; margin: 15px auto}
-.lastline {border:none; text-align:center; background:;}
+.lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
 .dishnumber {position: relative;
     font-family: 'Yantramanav', sans-serif;
