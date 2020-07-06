@@ -41,6 +41,9 @@ margin:3rem 0 1rem 0;
 text-align:center;
 line-height: 3rem;}
 
+.TITLE {-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;}
 
 /*FIN TEXTOS*/
 
@@ -152,6 +155,10 @@ width:100%;}
 .menuitem { font-family: 'Berkshire Swash', cursive;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
+
+	
+.cartadevinos {display:none;}
+.bebidas  {marging: 0rem!important; margin-top:-2.5rem!important;}
 
 .topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px;}
 .principal {
@@ -311,6 +318,7 @@ z-index: 12;
 .dish-3 .dishnumber {left:0;}
 .pricex3 {left:5%;}
 .expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
+.bebidas  {marging: 0rem!important; margin-top:0rem;}
 
 }
 
