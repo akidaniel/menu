@@ -181,11 +181,16 @@ font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
     background-color: red;
     font-weight: bold;
     color: white;
-    bottom: 30px;
-    left: 20%;
+    bottom: 15px;
+    left: 50%;
  /*display: block;
     width: 50px;*/
-    text-align: center;}
+    text-align: unset;}
+	
+.expandish .price {display:unset; width:auto; }
+	
+	
+.dishphoto {text-align:center}
 
 .pricex3 {left: 0px; margin: 0 auto;}
 .address {font-family: 'Yantramanav', sans-serif; font-size: 14px; text-align: center; margin: 15px auto}
@@ -286,7 +291,7 @@ z-index: 9998;
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
 .UK, .ES, .FR {margin: 0 1rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 4.15rem;}
-.expandish {min-width: 98%;}
+.expandish {min-width: 98%; padding-bottom: 30px;}
 /**FONDO DE COLOR**/
 .layer {background-color: rgba(134, 65, 56, 0.7);
     position: absolute;
@@ -297,6 +302,15 @@ z-index: 9998;
 }
 .show {display:none;}
 /**FIN FONDO DE COLOR**/
+
+.expandish .dishnumber, .dishnumber {
+    left: 10%;
+    }
+	
+.price {left:30%}
+.dish-3 .dishnumber {left:0;}
+.pricex3 {left:5%;}
+.expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
 
 }
 
