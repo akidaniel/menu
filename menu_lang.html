@@ -82,6 +82,25 @@ $('.FR').on('click', function() {
 
 <script>
 $(document).ready(function() {
+
+var display = function(block_name) {
+  $('.menuitemcontainer, .cartadevinos').css('display', 'none');
+  $('#' + block_name).css('display', 'block');
+  $('.' + block_name).css('display', 'block');
+}
+
+$('.platos').on('click', function() {
+  display('menuitemcontainer', $(this));
+});
+
+$('.vinos').on('click', function() {
+  display('cartadevinos', $(this));
+});
+
+});
+</script>
+<script>
+$(document).ready(function() {
 $('.dish-2, .dish-3').click(function() {
   $(this).toggleClass('expandish');
     $(this).siblings(".show").toggle();
@@ -173,11 +192,11 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <input type="checkbox" id="menu_lang_id" class="menu_lang">
 <!--<label for="menu_lang_id" class="" onclick="if(document.getElementById('menu_lang_id').value) document.getElementById('menu_share_id').checked = false; if(document.getElementById('menu_lang_id').value) document.getElementById('menu_buy_id').checked = false;">-->
 </label>
-<a class="ES link_general" href="#">
+<a class="ES" href="#">
 </a>
-<a class="UK link_general" href="#">
+<a class="UK" href="#">
 </a>
-<a class="FR link_general" href="#">
+<a class="FR" href="#">
 </a>
 </div>
 
@@ -191,6 +210,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </a>
 
 </div>
+
 <header id="LES" class="SUBTITULO LES" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menú Restaurant</header>
 <header id="LUK" class="SUBTITULO LUK" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Restaurant Menu</header>
 <header id="LFR" class="SUBTITULO LFR" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menu du Restaurant</header>
@@ -778,6 +798,9 @@ $('.dish-2, .dish-3').mouseleave(function() {
 
 </div>
 
+
+<div class="cartadevinos">
+</div>
 <!--FIN CUADRO CAFES-->
 <div class="address">C/ Angosto, 18 - 23520 - Begíjar <i class="fas fa-phone-alt"></i> 716 038 056 <i class="fab fa-whatsapp"> 611 111 111</i>
 

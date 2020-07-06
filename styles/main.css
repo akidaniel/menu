@@ -227,7 +227,7 @@ position:relative;
 }
 .cambiocontenido {position: fixed;
     bottom: 0.5rem;
-    z-index: 999; justify-content: left;}
+    z-index: 990; justify-content: left;}
 #LES {display:block;}
 .LUK, .LFR {display:none;}
 .LES {display:block;}
