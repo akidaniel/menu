@@ -191,26 +191,6 @@ font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .address {font-family: 'Yantramanav', sans-serif; font-size: 14px; text-align: center; margin: 15px auto}
 .lastline {border:none; text-align:center; background:;}
 
-.dishnumber {position: relative;
-    font-family: 'Yantramanav', sans-serif;
-    font-size: 18px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    padding: 4px 6px;
-   background-color: white;  bottom: 15px;
-    font-weight: bold;
-    color: black;
-    left: 40px;
-}
-.dishnumber::after {position:relative; 
-		  content: "\2617"; color:blue; margin-left: -1.5em; z-index:-9999; display:none;
-}
-.expandish .dishnumber {
-    left: 30%;
-    }
-	
-
 /*LANGUE*/
 .BOTONERA {display: -webkit-box;
 display: -moz-box;

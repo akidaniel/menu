@@ -107,7 +107,25 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </script>
 
 <style>
-
+.dishnumber {position: relative;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 18px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    padding: 4px 6px;
+   background-color: white;  bottom: 15px;
+    font-weight: bold;
+    color: black;
+    left: 40px;
+}
+.dishnumber::after {position:relative; 
+		  content: "\2617"; color:blue; margin-left: -1.5em; z-index:-9999; display:none;
+}
+.expandish .dishnumber {
+    left: 30%;
+    }
+	
 .price {bottom: 15px;
     left: 50%; text-align: unset;}
 	
@@ -205,16 +223,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </a>
 </div>
 
-<div class="cambiocontenido">
-<input type="checkbox" id="contenido" class="menu_contenido">
-<label for="contenido" class="" onclick="if(document.getElementById('contenido').value) document.getElementById('menu_share_id').checked = false; if(document.getElementById('contenido').value) document.getElementById('menu_buy_id').checked = false;">
-</label>
-<a class="platos" href="#">
-</a>
-<a class="vinos" href="#">
-</a>
 
-</div>
 <header id="LES" class="SUBTITULO LES" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menú Restaurant</header>
 <header id="LUK" class="SUBTITULO LUK" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Restaurant Menu</header>
 <header id="LFR" class="SUBTITULO LFR" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menu du Restaurant</header>
