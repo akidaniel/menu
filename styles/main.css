@@ -257,13 +257,10 @@ z-index:222;}
 	text-indent: -9999px;
 	/**position: fixed;**/
 	z-index: 999;
-	bottom: 0.25rem;
-	background-repeat:no-repeat;
-	background-size: contain;
 	cursor: pointer;
 }
-.platos {background-image: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
-.vinos {background-image: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
+.platos {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%; background-size: contain;}
+.vinos {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%; background-size: contain;}
 
 .expandish {
 background-color:#ffffff;
