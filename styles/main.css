@@ -271,7 +271,16 @@ z-index: 9998;
 .UK, .ES, .FR {margin: 0 1rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 4.15rem;}
 .expandish {min-width: 98%;}
-
+/**FONDO DE COLOR**/
+.layer {background-color: rgba(134, 65, 56, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.show {display:none;}
+/**FIN FONDO DE COLOR**/
 
 }
 
