@@ -244,19 +244,19 @@ z-index:222;}
 .ES {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/spain.png);}
 .FR {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/france.png);}
 
-.plato, .vinos {	display: block;
-	width: 3.75rem;
+.platos, .vinos {	display: block;
+	width: 1.75rem;
 	height: 3.75rem;
 	text-indent: -9999px;
 	position: fixed;
 	z-index: 999;
-	right: 1.25rem;
+	left: 0rem;
 	bottom: 1.25rem;
 	background-repeat:no-repeat;
 	background-size: contain;
 	cursor: pointer;
 }
-.plato {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
+.platos {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
 .vinos {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
 
 .expandish {
