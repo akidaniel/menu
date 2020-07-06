@@ -260,8 +260,8 @@ z-index:222;}
 	background-size: contain;
 	cursor: pointer;
 }
-.platos {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
-.vinos {background: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
+.platos {background-image: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
+.vinos {background-image: url(https://akidaniel.github.io/menu/imagenes/bt_top.png) no-repeat center 43%;}
 
 .expandish {
 background-color:#ffffff;
