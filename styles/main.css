@@ -225,7 +225,9 @@ justify-content: center;
 width:100%;
 position:relative;
 }
-
+.cambiocontenido {position: fixed;
+    bottom: 0px;
+    z-index: 999; justify-content: left;}
 #LES {display:block;}
 .LUK, .LFR {display:none;}
 .LES {display:block;}
