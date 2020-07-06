@@ -163,8 +163,8 @@ font-size:18px;
   color:#454545;
 }
 
-.dish-2 {text-align: center; margin-top: 15px; width:49%;}
-.dish-3 {text-align: center; margin-top: 5px; width:32%;}
+.dish-2 {text-align: center; margin-top: 15px; width:49%; z-index:10;}
+.dish-3 {text-align: center; margin-top: 5px; width:32%; z-index:10;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .descr {font-family: 'Yantramanav', sans-serif;
 font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
@@ -189,10 +189,9 @@ font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 	
 .expandish .price {display:unset; width:auto; }
 	
-	
 .dishphoto {text-align:center}
 
-.pricex3 {left: 0px; margin: 0 auto;}
+.pricex3 {left: 30%; margin: 0 auto;}
 .address {font-family: 'Yantramanav', sans-serif; font-size: 14px; text-align: center; margin: 15px auto}
 .lastline {border:none; text-align:center; background:;}
 
@@ -275,7 +274,7 @@ border-radius: 20px;**/
 border:solid 2px #B5B5B5;
 cursor: zoom-out;
 margin: 0;
-z-index: 9998;
+z-index: 12;
 }
 
 .expandish img {width: 300px; padding: 15px 0 0 0;}
@@ -284,6 +283,9 @@ z-index: 9998;
     display: block;
     width: 60px;}
 .expandish .pricex3 {margin:0;}
+
+.expandish .dishphoto {margin: 15px 0 -10px;}
+
 
 @media only screen and (max-width: 900px) {
 
