@@ -148,13 +148,13 @@ z-index: 9500;
 margin:2rem 0 1rem 0;
 width:100%;}
 
-.menuitemcontainer, .cartadevinos, .menudepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
+.menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
 .menuitem { font-family: 'Berkshire Swash', cursive;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
 
 	
-.cartadevinos, .menudepostres {display:none;}
+.cartadevinos, .cartadepostres {display:none;}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2.5rem!important;}
 
 .topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px;}
