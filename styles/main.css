@@ -319,7 +319,9 @@ z-index: 12;
 .pricex3 {left:5%;}
 .expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
 .bebidas  {marging: 0rem!important; margin-top:0rem;}
-
+.TITLE {-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;}
 }
 
 @media only screen and (min-width:901px) {
