@@ -166,10 +166,9 @@ width:100%;}
 background: ;
 flex: 1;
 font-family: 'Almendra', serif;
-
 font-size:18px;
-  padding: 5px 5px 2px 5px; border-bottom: 2px dotted #ccc;
-  color:#454545;
+padding: 5px 5px 2px 5px; border-bottom: 2px dotted #ccc;
+color:#454545;
 }
 
 .dish-2 {text-align: center; margin-top: 15px; width:49%; z-index:10;}
@@ -177,7 +176,7 @@ font-size:18px;
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .destacado {font-family: 'Almendra', serif;
 text-align:left;
-font-size:16px; font-weight: normal;}
+font-size:17px; font-weight: normal;}
 .descr {font-family: 'Gothic A1', sans-serif; font-weight: normal;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
