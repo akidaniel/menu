@@ -108,7 +108,7 @@ background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_mail.
 	height: 3.75rem;
 	text-indent: -9999px;
 	position: fixed;
-	z-index: 1500;
+	z-index: 1200;
 	right: 1.25rem;
 	bottom: 0.5rem;
 	background: url(https://akidaniel.github.io/menucatalina/imagenes/bt_top.png) no-repeat center 43%;
@@ -274,7 +274,7 @@ z-index:222;}
 }
 .platos {background: url(https://akidaniel.github.io/menucatalina/imagenes/menu_icon.png) no-repeat center 43%; background-size: contain;}
 .vinos {background: url(https://akidaniel.github.io/menucatalina/imagenes/wine_icon.png) no-repeat center 43%; background-size: contain;}
-.postres {background: url(https://akidaniel.github.io/menucatalina/imagenes/dess_icon.png) no-repeat center 43%; background-size: contain;}
+.postres {background: url(https://akidaniel.github.io/menucatalina/imagenes/wine_icon.png) no-repeat center 43%; background-size: contain;}
 
 
 .expandish {
