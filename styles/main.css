@@ -154,7 +154,6 @@ width:100%;}
 .menuitem { font-family: 'Almendra', serif; font-weight: bold;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
-.menuitemcontainer.TITLE p { font-family:'Almendra', serif;}
 
 	
 .cartadevinos, .cartadepostres {display:none;}
@@ -176,10 +175,12 @@ font-size:18px;
 .dish-2 {text-align: center; margin-top: 15px; width:49%; z-index:10;}
 .dish-3 {text-align: center; margin-top: 5px; width:32%; z-index:10;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
+.destacado {font-family: 'Almendra', serif;
+text-align:left;
+font-size:16px; font-weight: normal;}
 .descr {font-family: 'Gothic A1', sans-serif; font-weight: normal;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
-.dish-2 .descr {font-family: 'Gothic A1', sans-serif!important;}
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
  font-family: 'Gothic A1', sans-serif;
