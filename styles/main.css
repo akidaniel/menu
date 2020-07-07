@@ -250,10 +250,10 @@ background-size:contain;
 cursor: pointer;
 margin: 0 2rem;
 z-index:222;}
-.UK {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/uk.png);}
-.ES {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/spain.png);}
-.FR {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/france.png);}
-.CT {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/france.png);}
+.UK {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/uk.png);}
+.ES {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/spain.png);}
+.FR {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/france.png);}
+.CT {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/catalan.png);}
 
 .platos, .vinos {display: block;
 	width: 4rem;
