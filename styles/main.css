@@ -37,7 +37,6 @@ background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_
 /*TEXTOS*/
 
 .SUBTITULO{font-size:3rem;
-margin:3rem 0 1rem 0;
 text-align:center;
 line-height: 3rem;}
 
@@ -295,7 +294,6 @@ z-index: 12;
     box-shadow: none;}
 @media only screen and (max-width: 900px) {
 
-.SUBTITULO {margin-top: 4rem;}
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 4.15rem;}
