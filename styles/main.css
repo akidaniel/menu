@@ -163,7 +163,8 @@ width:100%;}
 .principal {
 background: ;
 flex: 1;
-font-family: 'Yantramanav', sans-serif;
+font-family: 'Almendra', serif;
+
 font-size:18px;
   padding: 5px 5px 2px 5px; border-bottom: 2px dotted #ccc;
   color:#454545;
@@ -172,14 +173,16 @@ font-size:18px;
 .dish-2 {text-align: center; margin-top: 15px; width:49%; z-index:10;}
 .dish-3 {text-align: center; margin-top: 5px; width:32%; z-index:10;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
-.descr {font-family: 'Yantramanav', sans-serif;
+.descr {font-family: 'Almendra', serif;
+
 font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 
 }
 
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
- font-family: 'Yantramanav', sans-serif;
+ font-family: 'Almendra', serif;
+
  font-size: 18px; -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
@@ -198,11 +201,13 @@ font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .dishphoto {text-align:center}
 
 .pricex3 {left: 30%; margin: 0 auto;}
-.address {font-family: 'Yantramanav', sans-serif; font-size: 16px; text-align: center; margin: 0 auto}
+.address {font-family: 'Almendra', serif;
+ font-size: 16px; text-align: center; margin: 0 auto}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
 .dishnumber {position: relative;
-    font-family: 'Yantramanav', sans-serif;
+    font-family: 'Almendra', serif;
+
     font-size: 18px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
