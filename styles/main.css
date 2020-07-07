@@ -297,7 +297,7 @@ z-index: 12;
 
 .SUBTITULO {margin-top: 4rem;}
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
-.UK, .ES, .FR {margin: 0 1rem; width: 3rem; height:5rem;}
+.UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 4.15rem;}
 .expandish {min-width: 98%; padding-bottom: 30px;}
 /**FONDO DE COLOR**/
