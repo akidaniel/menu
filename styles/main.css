@@ -110,7 +110,7 @@ background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_mail.
 	position: fixed;
 	z-index: 1500;
 	right: 1.25rem;
-	bottom: 0.5rem;
+	bottom: 0rem;
 	background: url(https://akidaniel.github.io/menucatalina/imagenes/bt_top.png) no-repeat center 43%;
 	background-size: contain;
 }
@@ -239,7 +239,7 @@ width:100%;
 position:relative;
 }
 .cambiocontenido {position: fixed;
-    bottom: 0.5rem;
+    bottom: 0rem;
     z-index: 990; justify-content: left;}
 #LES {display:block;}
 .LUK, .LFR, .CAT {display:none;}
@@ -265,8 +265,8 @@ z-index:222;}
 .CT {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/catalan.png);}
 
 .platos, .vinos, .postres {display: block;
-	width: 4rem;
-	height: 4rem;
+	width: 4.5rem;
+	height: 4.5rem;
 	text-indent: -9999px;
 	/**position: fixed;**/
 	z-index: 999;
