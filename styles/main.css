@@ -58,12 +58,12 @@ width:100%;}
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
 display:block;
 text-indent:-625rem;
-width:3.125rem;
-height:3.125rem;
+width:3rem;
+height:3rem;
 background-repeat:no-repeat;
 cursor: pointer;
 background-size:contain;
-margin: 0 15px;
+margin: 0 0.5rem;
 }
 .HOME {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_fcbk.png)}
 
@@ -158,6 +158,8 @@ width:100%;}
 .bebidas  {marging: 0rem!important; margin-top:-2.5rem!important;}
 
 .topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px;}
+.topimage img {float:right;}
+
 .principal {
 background: ;
 flex: 1;
@@ -341,6 +343,7 @@ display: block;
 .FCBK, .TWITTER, .GPLUS, .MAIL, .HOME, .BACK, .INSTA, .WHATS {
 margin: 0 0 16px;
 }
+.topimage img {float:left;}
 
 }
 
