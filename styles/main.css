@@ -39,8 +39,9 @@ background:url(https://images.assetsdelivery.com/compings_v2/ihor_seamless/ihor_
 .SUBTITULO{font-family: 'Almendra', serif;
 font-size:3rem;
 text-align:center;
-line-height: 3rem;
-margin: 0 0 1rem;}
+line-height: 2.5rem;
+margin: 0 0 1rem;
+font-weight: bold;}
 
 
 /*FIN TEXTOS*/
@@ -150,9 +151,10 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
-.menuitem { font-family: 'Almendra', serif;
+.menuitem { font-family: 'Almendra', serif; font-weight: bold;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
+.menuitemcontainer.TITLE p { font-family:'Almendra', serif;}
 
 	
 .cartadevinos, .cartadepostres {display:none;}
@@ -175,14 +177,13 @@ font-size:18px;
 .dish-3 {text-align: center; margin-top: 5px; width:32%; z-index:10;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .descr {font-family: 'Gothic A1', sans-serif;
-
-font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
+font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 
 }
 
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
- font-family: 'Almendra', serif;
+ font-family: 'Gothic A1', sans-serif;
 
  font-size: 18px; -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -202,7 +203,7 @@ font-size:18px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .dishphoto {text-align:center}
 
 .pricex3 {left: 30%; margin: 0 auto;}
-.address {font-family: 'Almendra', serif;
+.address {font-family: 'Gothic A1', sans-serif;
  font-size: 16px; text-align: center; margin: 0 auto}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
