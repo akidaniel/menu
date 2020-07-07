@@ -233,14 +233,14 @@ position:relative;
     bottom: 0.5rem;
     z-index: 990; justify-content: left;}
 #LES {display:block;}
-.LUK, .LFR {display:none;}
+.LUK, .LFR, .CAT {display:none;}
 .LES {display:block;}
 
 .menu_lang, .menu_contenido {display: none;}
 .menu_lang:checked ~ label .BUTTON {color: #c2c;}
 .menu_contenido:checked ~ label .BUTTON {color: #c2c;}
 
-.UK, .ES, .FR {
+.UK, .ES, .FR, .CT {
 display:block;
 text-indent:-625rem;
 width:4rem;
@@ -253,6 +253,7 @@ z-index:222;}
 .UK {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/uk.png);}
 .ES {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/spain.png);}
 .FR {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/france.png);}
+.CT {background-image: url(https://rawgit.com/akidaniel/avataretes/gh-pages/FOTOS/GENERAL/france.png);}
 
 .platos, .vinos {display: block;
 	width: 4rem;
