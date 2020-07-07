@@ -41,9 +41,6 @@ margin:3rem 0 1rem 0;
 text-align:center;
 line-height: 3rem;}
 
-.TITLE {-moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;}
 
 /*FIN TEXTOS*/
 
@@ -292,6 +289,9 @@ z-index: 12;
 .expandish .dishphoto {margin: 15px 0 -10px;}
 
 
+.TITLE {-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;}
 @media only screen and (max-width: 900px) {
 
 .SUBTITULO {margin-top: 4rem;}
