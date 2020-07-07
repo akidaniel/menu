@@ -103,6 +103,10 @@ $('.vinos').on('click', function() {
   display('cartadevinos', $(this));
 });
 
+$('.postres').on('click', function() {
+  display('menupostres', $(this));
+});
+
 });
 </script>
 <script>
@@ -190,10 +194,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
     <!--<i class="visuallyhidden">share via email</i>-->
 </a>
 </div>
-
-
 <!--CUADRO LANGUES-->
-
 <div class="BOTONERA">
 <input type="checkbox" id="menu_lang_id" class="menu_lang">
 <!--<label for="menu_lang_id" class="" onclick="if(document.getElementById('menu_lang_id').value) document.getElementById('menu_share_id').checked = false; if(document.getElementById('menu_lang_id').value) document.getElementById('menu_buy_id').checked = false;">-->
@@ -207,7 +208,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <a class="FR" href="#">
 </a>
 </div>
-
+<!--CUADRO BOTONERA INFERIOR-->
 <div class="cambiocontenido">
 <input type="checkbox" id="contenido" class="menu_contenido">
 <!--<label for="contenido" class="" onclick="if(document.getElementById('contenido').value) document.getElementById('menu_share_id').checked = false; if(document.getElementById('contenido').value) document.getElementById('menu_buy_id').checked = false;">-->
@@ -216,11 +217,11 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </a>
 <a class="vinos" href="#">
 </a>
-
+<a class="postres" href="#">
+</a>
 </div>
 
 <div class="menudecomidas">
-
 <div class="menuitemcontainer TITLE" style="margin: 3rem auto;">
 <div class="menuitem topimage LES LUK LFR CAT" style="border:none">
 <img src="https://akidaniel.github.io/menucatalina/imagenes/catalina_logo.png" alt="Logo" border="0" height="200px" style="float:left">
@@ -235,7 +236,6 @@ Thank you for choosing us.</p>
 Tous nos plats sont préparés à l´instant. Détendez-vous et protez du moment. Si vous êtes pressés, vous n´êtes pas au bon endroit. Nous acceptons les critiques, mais aussi les félicitations. Vous êtes, ici, chez nous, mais nous aimerions que, dès votre arrivée, vous vous sentiez aussi un peu... chez vous. Merci de nous avoir choisi.</p>
 <div class="menuitem lastline LES LUK LFR CAT" style="border-bottom: 1px solid #BE9A91;"></div>
 </div>
-
 
 <div class="menuitemcontainer TITLE">
 <header id="LES" class="SUBTITULO comidas LES" style="color: #803a30; font-family: 'Berkshire Swash', cursive;">Menú Restaurant</header>

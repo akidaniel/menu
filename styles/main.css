@@ -255,7 +255,7 @@ z-index:222;}
 .FR {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/france.png);}
 .CT {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/catalan.png);}
 
-.platos, .vinos {display: block;
+.platos, .vinos, .postres {display: block;
 	width: 4rem;
 	height: 4rem;
 	text-indent: -9999px;
@@ -265,6 +265,8 @@ z-index:222;}
 }
 .platos {background: url(https://akidaniel.github.io/menucatalina/imagenes/menu_icon.png) no-repeat center 43%; background-size: contain;}
 .vinos {background: url(https://akidaniel.github.io/menucatalina/imagenes/wine_icon.png) no-repeat center 43%; background-size: contain;}
+.postres {background: url(https://akidaniel.github.io/menucatalina/imagenes/wine_icon.png) no-repeat center 43%; background-size: contain;}
+
 
 .expandish {
 background-color:#ffffff;
