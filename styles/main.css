@@ -306,10 +306,14 @@ z-index: 12;
 .TITLE {-moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;}
+
+.-L {text-align:left;}
+
+.cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
+
 @media only screen and (max-width: 900px) {
 
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
-.cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 4.15rem;}
 .expandish {min-width: 98%; padding-bottom: 30px;}
@@ -339,7 +343,7 @@ z-index: 12;
     -webkit-box-shadow: none;
     box-shadow: none;}
 
-.-L {text-align:left;}
+
 
 }
 
