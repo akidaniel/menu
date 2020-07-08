@@ -207,7 +207,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </a>
 </div>
 <!--CUADRO BOTONERA INFERIOR-->
-<div class="cambiocontenido">
+<div id="cambiocontenido" class="cambiocontenido">
 <input type="checkbox" id="contenido" class="menu_contenido">
 <!--<label for="contenido" class="" onclick="if(document.getElementById('contenido').value) document.getElementById('menu_share_id').checked = false; if(document.getElementById('contenido').value) document.getElementById('menu_buy_id').checked = false;">-->
 </label>
@@ -873,6 +873,19 @@ $(window).scroll(function() {
 		$('a.cambiocontenido').fadeIn('slow');
 	}
 });
+</script>
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("cambiocontenido").style.bottom = "0rem";
+  } else {
+    document.getElementById("cambiocontenido").style.bottom = "-4rem";
+  }
+  prevScrollpos = currentScrollPos;
+}
 </script>
 
 </div>

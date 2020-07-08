@@ -240,6 +240,8 @@ position:relative;
 .cambiocontenido {position: fixed;
     bottom: 0rem;
     z-index: 990; justify-content: left;}
+	
+#cambiocontenido {transition: bottom 0.3s;}	
 #LES {display:block;}
 .LUK, .LFR, .CAT {display:none;}
 .LES {display:block;}
