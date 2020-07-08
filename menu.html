@@ -863,17 +863,6 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
 });
 </script>
 
-<script type="text/javascript">
-$('body').prepend('<a href="#" class="cambiocontenido"></a>');
-var amountScrolled = 300;
-$(window).scroll(function() {
-	if ( $(window).scrollBottom() > amountScrolled ) {
-		$('a.cambiocontenido').fadeOut('slow');
-	} else {
-		$('a.cambiocontenido').fadeIn('slow');
-	}
-});
-</script>
 
 <script>
 var prevScrollpos = window.pageYOffset;
