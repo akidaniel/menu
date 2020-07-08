@@ -308,7 +308,7 @@ z-index: 12;
     box-shadow: none;}
 
 .-L {text-align:left;}
-
+.-C {text-align:center;}
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 
 @media only screen and (max-width: 900px) {
@@ -334,7 +334,7 @@ z-index: 12;
 	
 .price {left:30%}
 .dish-3 .dishnumber {left:0;}
-.pricex3 {left:5%; line-height: 230%;}
+.pricex3 {left:unset; line-height: 230%;}
 .expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
 .expandish .price {display: unset;}
 
