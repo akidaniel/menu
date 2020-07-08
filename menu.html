@@ -863,6 +863,18 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
 });
 </script>
 
+<script type="text/javascript">
+$('body').prepend('<a href="#" class="cambiocontenido">fadeout</a>');
+var amountScrolled = 300;
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.cambiocontenido').fadeOut('slow');
+	} else {
+		$('a.cambiocontenido').fadeIn('slow');
+	}
+});
+</script>
+
 </div>
 
 </body>

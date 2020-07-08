@@ -104,12 +104,12 @@ background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_mail.
 /*BOTON BACK TO TOP*/
 .back-to-top {
 	display: none;
-	width: 3.75rem;
-	height: 3.75rem;
+	width: 4.75rem;
+	height: 4.75rem;
 	text-indent: -9999px;
 	position: fixed;
 	z-index: 1500;
-	right: 1.25rem;
+	right: 0.5rem;
 	bottom: 0rem;
 	background: url(https://akidaniel.github.io/menucatalina/imagenes/bt_top.png) no-repeat center 43%;
 	background-size: contain;
