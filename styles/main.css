@@ -310,7 +310,6 @@ z-index: 12;
 .-L {text-align:left;}
 .-C {text-align:center;}
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
-.wine {height:300px;}
 .wine img {height: 300px; padding:0}
 .expandish .wine img {width:unset; height: unset; }
 .expandish .-C .pricex3 {display:block; padding: 0px 10px; line-height: 180%;}
