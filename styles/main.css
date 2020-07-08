@@ -184,7 +184,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
  font-family: 'Gothic A1', sans-serif;
-
+width:fit-content;
  font-size: 16px; -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
@@ -310,7 +310,7 @@ z-index: 12;
 .-L {text-align:left;}
 .-C {text-align:center;}
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
-
+.wine {height:300px;}
 @media only screen and (max-width: 900px) {
 
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
