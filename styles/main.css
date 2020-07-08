@@ -311,6 +311,13 @@ z-index: 12;
 .-C {text-align:center;}
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 .wine {height:300px;}
+.wine img {height: 300px; padding:0}
+.expandish .wine img {width:unset; height: unset; }
+.expandish .-C .pricex3 {display:block; padding: 0px 10px; line-height: 180%;}
+.expandish .-C {margin-top: -8rem;}
+.expandish .fa-wine-glass-alt {vertical-align:bottom!important}
+.expandish .wine {text-align: left; margin-left: 3rem;}
+.expandish .-C p {margin-left: 10rem;}
 @media only screen and (max-width: 900px) {
 
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
@@ -342,6 +349,7 @@ z-index: 12;
 .TITLE {-moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;}
+.menuitemcontainer .pricex3 {line-height:unset;}
 
 
 
