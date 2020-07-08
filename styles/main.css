@@ -208,9 +208,9 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
 .dishnumber {position: relative;
-    font-family: 'Almendra', serif;
+    font-family: 'Gothic A1', sans-serif;
 
-    font-size: 18px;
+    font-size: 16px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
