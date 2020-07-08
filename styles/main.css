@@ -334,7 +334,7 @@ z-index: 12;
 	
 .price {left:30%}
 .dish-3 .dishnumber {left:0;}
-.pricex3 {left:5%;}
+.pricex3 {left:5%; line-height: 230%;}
 .expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
 .expandish .price {display: unset;}
 
