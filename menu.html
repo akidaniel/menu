@@ -61,7 +61,7 @@
 $(document).ready(function() {
 
 var display = function(block_name) {
-  $('.SUBTITULO, .menuitem, .descr, .listado, .destacado').css('display', 'none');
+  $('.SUBTITULO, .menuitem, .descr, .listado, .destacado, .principal').css('display', 'none');
   $('#' + block_name).css('display', 'block');
   $('.' + block_name).css('display', 'block');
 }
@@ -135,6 +135,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </script>
 
 <style>
+.ultimalinea {border:none}
 
 @media only screen and (max-width: 900px) {
 
@@ -1432,24 +1433,24 @@ Tous nos plats sont préparés à l'instant. Détendez-vous et profitez du mome
 
 
 
-<div class="flexbox"><div class="principal">  Martini Bianco</div><div class="principal preciolista">3.95 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"> Martini Rosso</div><div class="principal preciolista">3.95 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"> Yzaguirre rojo</div><div class="principal preciolista">4.45 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"> Campari</div><div class="principal preciolista">5.50 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"> Ricard</div><div class="principal preciolista">5.50 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"> Cinzano </div><div class="principal preciolista">4.50 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"> Gancia con Sprite</div><div class="principal preciolista">5.90 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"> Fernet con Coca Cola</div><div class="principal preciolista">6.50 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"> Aperol Spritz</div><div class="principal preciolista">6.90 &nbsp;€</div></div>
-<div class="flexbox"><div class="principal"  style="border:none"> Mojito</div><div class="principal preciolista"  style="border:none">7,25 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Martini Bianco</div><div class="principal preciolista LES CAT LUK LFR">3.95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Martini Rosso</div><div class="principal preciolista LES CAT LUK LFR">3.95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Yzaguirre rojo</div><div class="principal preciolista LES CAT LUK LFR">4.45 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Campari</div><div class="principal preciolista LES CAT LUK LFR">5.50 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Ricard</div><div class="principal preciolista LES CAT LUK LFR">5.50 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Cinzano </div><div class="principal preciolista LES CAT LUK LFR">4.50 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Gancia con Sprite</div><div class="principal preciolista LES CAT LUK LFR">5.90 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Fernet con Coca Cola</div><div class="principal preciolista LES CAT LUK LFR">6.50 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Aperol Spritz</div><div class="principal preciolista LES CAT LUK LFR">6.90 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR"  style="border:none"> Mojito</div><div class="principal preciolista LES CAT LUK LFR"  style="border:none">7,25 &nbsp;€</div></div>
 <div class="menuitem lastline LES LUK LFR"></div>
 </div>
 <div><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/BLANK.gif" alt="" width="10" height="20" align="center" border="0" style="display:block"/></div>
 
 <div class="cartadevinos">
-<div class="menuitem LES">Vinos Argentinos <i class="fas fa-glass-martini-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
-<div class="menuitem LUK">Argentine wines <i class="fas fa-glass-martini-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
-<div class="menuitem CAT LFR">Vins argentins <i class="fas fa-glass-martini-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LES">Vinos Argentinos <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Argentine wines <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem CAT LFR">Vins argentins <i class="fas fa-wine-glass-alt" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 
 <div>
 
@@ -1526,6 +1527,63 @@ Tous nos plats sont préparés à l'instant. Détendez-vous et profitez du mome
 <div class="menuitem lastline LES CAT LUK LFR"></div>
 
 </div>
+<div><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/BLANK.gif" alt="" width="10" height="20" align="center" border="0" style="display:block"/></div>
+
+<div class="cartadevinos">
+<div class="menuitem LES">Agua <i class="fas fa-glass-whiskey" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem CAT">Aigua <i class="fas fa-glass-whiskey" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Water <i class="fas fa-glass-whiskey" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Eau <i class="fas fa-glass-whiskey" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Viladrau 500ml</div><div class="principal preciolista LES CAT LUK LFR">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal ultimalinea LES CAT LUK LFR">San Narciso (gas) 500ml</div><div class="principal preciolista ultimalinea LES CAT LUK LFR">2,75 &nbsp;€</div></div>
+<div class="menuitem lastline LES CAT LUK LFR"></div>
+</div>
+
+<div><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/BLANK.gif" alt="" width="10" height="20" align="center" border="0" style="display:block"/></div>
+
+<div class="cartadevinos">
+<div class="menuitem LES">Refrescos <i class="fas fa-glass-whiskey" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem CAT">Refrescs <i class="fas fa-glass-whiskey" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Soda <i class="fas fa-glass-whiskey" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Soda <i class="fas fa-glass-whiskey" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Coca Cola </div><div class="principal preciolista LES CAT LUK LFR">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Coca Cola Zero</div><div class="principal preciolista LES CAT LUK LFR">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES">Fanta naranja/limón</div><div class="principal preciolista LES">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal CAT">Fanta taronja/llimona</div><div class="principal preciolista CAT">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LUK">Fanta orange/lemon</div><div class="principal preciolista LUK">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LFR">Fanta orange/citron</div><div class="principal preciolista LFR">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Sprite</div><div class="principal preciolista LES CAT LUK LFR">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Nestea</div><div class="principal preciolista LES CAT LUK LFR">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES CAT LUK LFR">Aquarius</div><div class="principal preciolista LES CAT LUK LFR">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LES">Royal Bliss tónica</div><div class="principal preciolista LES">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal CAT">Royal Bliss tònica</div><div class="principal preciolista CAT">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LUK">Royal Bliss tonic</div><div class="principal preciolista LUK">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal LFR">Royal Bliss tonique</div><div class="principal preciolista LFR">2,95 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal ultimalinea LES">Gaseosa</div><div class="principal preciolista ultimalinea LES">2,35 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal ultimalinea CAT">Gasosa</div><div class="principal preciolista ultimalinea CAT">2,35 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal ultimalinea LUK LFR">Soda</div><div class="principal preciolista ultimalinea LUK LFR">2,35 &nbsp;€</div></div>
+
+<div class="menuitem lastline LES CAT LUK LFR"></div>
+</div>
+
+<div><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/BLANK.gif" alt="" width="10" height="20" align="center" border="0" style="display:block"/></div>
+
+<div class="cartadevinos">
+<div class="menuitem LES">Zumo Minute Made <i class="fas fa-apple-alt" style="color:#803a30; vertical-align:top; font-size: 24px;"></i></div>
+<div class="menuitem CAT">Suc Minute Made <i class="fas fa-apple-alt" style="color:#803a30; vertical-align:top; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Minute Made juice <i class="fas fa-apple-alt" style="color:#803a30; vertical-align:top; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Juice Minute Made <i class="fas fa-apple-alt" style="color:#803a30; vertical-align:top; font-size: 24px;"></i></div>
+
+<div class="flexbox"><div class="principal ultimalinea LES">Naranja, piña, melocotón, manzana</div><div class="principal preciolista ultimalinea LES">2,50 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal ultimalinea CAT">Taronja, pinya, préssec, poma</div><div class="principal preciolista ultimalinea CAT">2,50 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal ultimalinea LUK">Orange, pineapple, peach, apple</div><div class="principal preciolista ultimalinea LUK">2,50 &nbsp;€</div></div>
+<div class="flexbox"><div class="principal ultimalinea LFR">Orange, ananas, pêche, pomme</div><div class="principal preciolista ultimalinea LFR">2,50 &nbsp;€</div></div>
+<div class="menuitem lastline LES CAT LUK LFR"></div>
+</div>
+
+<div><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/BLANK.gif" alt="" width="10" height="20" align="center" border="0" style="display:block"/></div>
+
 </div>
 <!--MENU DE POSTRES-->
 
