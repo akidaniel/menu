@@ -89,7 +89,7 @@ $('.FR').on('click', function() {
 $(document).ready(function() {
 
 var display = function(block_name) {
-  $('.menuitemcontainer, .cartadepostres, .menudevinos').css('display', 'none');
+  $('.menuitemcontainer, .cartadepostres, .menudepostres').css('display', 'none');
   $('#' + block_name).css('display', 'block');
   $('.' + block_name).css('display', 'block');
 }
@@ -103,7 +103,7 @@ $('.vinos').on('click', function() {
 });
 
 $('.postres').on('click', function() {
-  display('cartadepostres', $(this));
+  display('menudepostres', $(this));
 });
 
 });
@@ -1993,7 +1993,7 @@ Tous nos plats sont préparés à l'instant. Détendez-vous et profitez du mome
 </div>
 <div><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/BLANK.gif" alt="" width="10" height="20" align="center" border="0" style="display:block"/></div>
 
-
+<!--CAFES CON ALCOHOL-->
 <div class="cartadepostres">
 <div class="menuitem LES">Cafés especiales <i class="fas fa-trophy" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
 <div class="menuitem CAT">Cafès especials <i class="fas fa-trophy" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
@@ -2085,6 +2085,115 @@ Tous nos plats sont préparés à l'instant. Détendez-vous et profitez du mome
 </div>
 <div class="menuitem lastline LES CAT LUK LFR"></div>
 </div>
+<!--FIN CAFES CON ALCOHOL-->
+<div><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/BLANK.gif" alt="" width="10" height="20" align="center" border="0" style="display:block"/></div>
+<!--CUADRO POSTRES-->
+<div class="cartadepostres">
+<div class="menuitem LES CAT">Postres <i class="fas fa-ice-cream" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LUK">Desserts <i class="fas fa-ice-cream" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div class="menuitem LFR">Desserts <i class="fas fa-ice-cream" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+
+<div class="flexbox lista">
+<div class="layer show"></div>
+
+<div class="dish-2">
+<div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish01.png" alt="Sopa" border="0" ></div>
+<div><!--<span class="dishnumber">P01</span>--><span class="price">10.50 €</span></div>
+<p class="menuitem plato LES CAT LUK LFR">Panzerotti</p>
+<p class="descr LES">Ricotta y Espinaca con esparragos y mantequilla trufada</p>
+<p class="descr CAT">Ricotta i Espinacs amb espàrrecs i mantega trufada</p>
+<p class="descr LUK">Ricotta and Spinach with asparagus and truffled butter</p>
+<p class="descr LFR">Ricotta et Épinards avec asperges et beurre truffé</p>
+</div>
+
+<div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish02.png" alt="Gambas" border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P02</span>--><span class="price">10.95 €</span></div>
+<p class="menuitem plato LES CAT LUK LFR">Raviolaccio</p>
+<p class="descr LES">Carne a la brasa con salsa napolitana</p>
+<p class="descr CAT">Carn a la brasa amb salsa napolitana</p>
+<p class="descr LUK">Grilled Meat with Napolitana Sauce (tomato)</p>
+<p class="descr LFR">Viande Grillée avec sauce Napolitana (tomate)</p>
+</div> 
+</div>
+
+<div class="flexbox lista">
+<div class="layer show"></div>
+<div class="dish-2">
+<div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish03.png" alt=" "width=" "border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P03</span>--><span class="price">13.50 €</span></div>
+<p class="menuitem plato LES CAT LUK LFR">Spiga</p>
+<p class="descr LES">Trufa con salsa de setas</p>
+<p class="descr CAT">Trufa amb salsa de boletus</p>
+<p class="descr LUK">Truffle with mushrooms sause</p>
+<p class="descr LFR">Truffe avec sauce aux champignons</p>
+</div>
+ 
+<div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish04.png" alt="Caprese" border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P04</span>--><span class="price">10.50 €</span></div>
+<p class="menuitem plato LES CAT LUK LFR">Fiocchi</p>
+<p class="descr LES">Queso y Pera con salsa gorgonzola</p>
+<p class="descr CAT">Formatge i Pera amb salsa gorgonzola</p>
+<p class="descr LUK">Cheese and Pear with Gorgonzola Sauce</p>
+<p class="descr LFR">Fromage et Poire avec sauce Gorgonzola</p>
+</div>
+</div>
+
+
+<div class="flexbox lista"><div class="layer show"></div>
+<div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish05.png" alt=" "width=" "border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P05</span>--><span class="price">10.50 €</span></div>
+<p class="menuitem plato LES CAT LUK LFR">Spaghetti</p>
+<p class="descr LES">Con Verduras a la brasa y Parmesano</p>
+<p class="descr CAT">Amb verdures brasa i formatge parmessa</p>
+<p class="descr LUK">With Grilled Vegetables and Parmesan Cheese</p>
+<p class="descr LFR">Avec Légumes au Grill et Fromage Parmesan</p>
+</div>
+ 
+<div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish06.png" alt=" "width=" "border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P06</span>--><span class="price">12.50 €</span></div>
+<p class="menuitem plato LES">Lasaña de Verduras</p>
+<p class="menuitem plato CAT">Lasanya de Verdures</p>
+<p class="menuitem plato LUK">Vegetables Lasagna</p>
+<p class="menuitem plato LFR">Lasagne aux Légumes</p>
+<p class="descr LES CAT LUK LFR">(20min.)</p>
+</div>
+</div>
+
+<div class="flexbox lista"><div class="layer show"></div>
+<div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish07.png" alt=" "width=" "border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P07</span>--><span class="price">12.50 €</span></div>
+<p class="menuitem plato LES">Lasaña de Carne</p>
+<p class="menuitem plato CAT">Lasanya de Carn</p>
+<p class="menuitem plato LUK">Meat Lasagna</p>
+<p class="menuitem plato LFR">Lasagne à la Viande</p>
+<p class="descr LES CAT LUK LFR">(20min.)</p>
+  </div>
+ 
+<div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish08.png" alt=" "width=" "border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P08</span>--><span class="price">9.95 €</span></div>
+<p class="menuitem plato LES CAT LUK LFR">Gnocchi</p>
+<p class="descr LES CAT LUK LFR">Bolognesa – Napolitana – Pesto</p>
+</div>
+</div>
+
+<div class="flexbox lista"><div class="layer show"></div>
+<div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish09.png" alt=" "width=" "border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P09</span>--><span class="price">9.95 €</span></div>
+<p class="menuitem plato LES CAT LUK LFR">Tagliatelle</p>
+<p class="descr LES CAT LUK LFR">Bolognesa – Napolitana – Pesto</p>
+</div>
+ 
+<div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish10.png" alt=" "width=" "border="0" style="margin: 0 auto"></div>
+<div><!--<span class="dishnumber">P10</span>--><span class="price">9.95 €</span></div>
+<p class="menuitem plato LES CAT LUK LFR">Taglioline Verdi</p>
+<p class="descr LES CAT LUK LFR">Bolognesa – Napolitana – Pesto</p>
+</div>
+</div>
+
+
+<div class="menuitem lastline LES CAT LUK LFR"></div>
+</div>
+<!--FIN CUADRO POSTRES-->
 <div><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/BLANK.gif" alt=""width="10" height="20" align="center" border="0" style="display:block"/></div>
 <!--CUADRO CAFES-->
 <div class="cartadepostres">
