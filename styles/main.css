@@ -156,7 +156,7 @@ width:100%;}
 }
 
 	
-.cartadevinos, .cartadepostres {display:none;}
+/**.cartadevinos,**/ .cartadepostres {display:none;}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2.5rem!important;}
 
 
