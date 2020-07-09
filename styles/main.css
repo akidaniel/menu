@@ -196,8 +196,8 @@ width:fit-content;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     padding: 4px 10px;
-    background-color: red;
-    font-weight: bold;
+    background-color: #7B7E97;
+    /**font-weight: bold;**/
     color: white;
     bottom: 15px;
     left: 50%;
