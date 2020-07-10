@@ -205,7 +205,6 @@ width:fit-content;
     width: 50px;*/
     text-align: unset;}
 	
-.expandish .price {display:unset; width:auto; }
 	
 .dishphoto {text-align:center}
 
@@ -302,7 +301,8 @@ padding-bottom: 30px;
 
 .expandish .price {left: 60%;
     display: block;
-    width: 60px;}
+    width: fit-content;}
+	
 .expandish .pricex3 {margin:0;}
 
 .expandish .dishphoto {margin: 15px 0 -10px;}
