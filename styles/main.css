@@ -190,20 +190,20 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
- font-family: 'Gothic A1', sans-serif;
-width:fit-content;
- font-size: 16px; -moz-border-radius: 20px;
+ font-family: 'Almendra', serif;
+
+ font-size: 16px; /**width:fit-content;-moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     padding: 4px 10px;
     background-color: #7B7E97;
-    /**font-weight: bold;**/
-    color: white;
-    bottom: 15px;
-    left: 50%;
+    font-weight: bold; bottom: 15px; color: white;**/
+    
+   
+    left: 70%;
  /*display: block;
-    width: 50px;*/
-    text-align: unset;}
+    width: 50px; text-align: unset;*/
+   }
 	
 	
 .dishphoto {text-align:center}
@@ -305,9 +305,9 @@ padding-bottom: 30px;
 
 .expandish img {width: 300px; padding: 15px 0 0 0;}
 
-.expandish .price {left: 60%;
+.expandish .price {/**left: 60%;
     display: block;
-    width: fit-content;}
+    width: fit-content;**/}
 	
 .expandish .pricex3 {margin:0;}
 
@@ -352,11 +352,12 @@ padding-bottom: 30px;
     left: 10%;
     }
 	
-.price {left:30%}
+/**.price {left:30%}
+.expandish .price {display: unset;}**/
+
 .dish-3 .dishnumber {left:0;}
 .pricex3 {left:unset; line-height: 230%;}
 .expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
-.expandish .price {display: unset;}
 
 .bebidas  {marging: 0rem!important; margin-top:0rem;}
 .TITLE {-moz-box-shadow: none;
