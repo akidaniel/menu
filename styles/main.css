@@ -192,7 +192,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .price {position: relative;
  font-family: 'Almendra', serif;
 
- font-size: 16px; /**width:fit-content;-moz-border-radius: 20px;
+ font-size: 18px; /**width:fit-content;-moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     padding: 4px 10px;
@@ -356,7 +356,7 @@ padding-bottom: 30px;
 .expandish .price {display: unset;}**/
 
 .dish-3 .dishnumber {left:0;}
-.pricex3 {left:unset; line-height: 230%;}
+.pricex3 {left:unset; line-height: 140%;}
 .expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
 
 .bebidas  {marging: 0rem!important; margin-top:0rem;}
