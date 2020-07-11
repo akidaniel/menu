@@ -353,10 +353,11 @@ padding-bottom: 30px;
     }
 	
 /**.price {left:30%}
-.expandish .price {display: unset;}**/
+.expandish .price {display: unset;}
+.pricex3 {left:unset; line-height: 140%;}**/
 
 .dish-3 .dishnumber {left:0;}
-.pricex3 {left:unset; line-height: 140%;}
+
 .expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
 
 .bebidas  {marging: 0rem!important; margin-top:0rem;}
