@@ -208,7 +208,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 	
 .dishphoto {text-align:center}
 
-.pricex3 {left: 30%; margin: 0 auto;}
+.pricex3 {left: 30%; margin: 0 auto; position:unset;}
 .address {font-family: 'Gothic A1', sans-serif;
  font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
