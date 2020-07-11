@@ -246,7 +246,13 @@ position:relative;
 }
 .cambiocontenido {position: fixed;
     bottom: 0rem;
-    z-index: 990; justify-content: left;}
+    z-index: 990; 
+	direction: rtl;
+    justify-content: flex-end;
+	right: 5rem;
+    }
+	
+
 	
 #cambiocontenido {transition: bottom 0.3s;}	
 #LES {display:block;}
@@ -322,6 +328,9 @@ padding-bottom: 30px;
 .expandish .fa-wine-glass-alt {vertical-align:bottom!important}
 .expandish .wine {text-align: left; margin-left: 3rem;}
 .expandish .-C p {margin-left: 10rem;}
+
+.FINDUS {top:0;}
+
 @media only screen and (max-width: 900px) {
 
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
@@ -355,7 +364,10 @@ padding-bottom: 30px;
     box-shadow: none;}
 .menuitemcontainer .pricex3 {line-height:unset;}
 
-
+.cambiocontenido {
+    justify-content: flex-start;
+	right:unset;
+    }
 
 }
 
@@ -366,7 +378,7 @@ padding-bottom: 30px;
 top:172px;
 margin-right: 5px;
 width:60px;
-left:85%;
+left:90%;
 right: 0;
 margin-left: 0px;
 display: block;

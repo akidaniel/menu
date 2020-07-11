@@ -135,8 +135,10 @@ $('.dish-2, .dish-3').mouseleave(function() {
 </script>
 
 <style>
-.FINDUS {top:0;}
-@media only screen and (max-width: 900px) {
+
+	
+	
+@media only screen and (min-width: 901px) {
 
 
 
@@ -209,11 +211,11 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <input type="checkbox" id="contenido" class="menu_contenido">
 <!--<label for="contenido" class="" onclick="if(document.getElementById('contenido').value) document.getElementById('menu_share_id').checked = false; if(document.getElementById('contenido').value) document.getElementById('menu_buy_id').checked = false;">-->
 </label>
-<a class="platos" href="#">
+<a class="postres" href="#">
 </a>
 <a class="vinos" href="#">
 </a>
-<a class="postres" href="#">
+<a class="platos" href="#">
 </a>
 </div>
 
@@ -2292,7 +2294,7 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
 </script>
 
 
-<script>
+<script>if (jQuery(window).width() < 900) {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -2302,6 +2304,7 @@ window.onscroll = function() {
     document.getElementById("cambiocontenido").style.bottom = "-3.5rem";
   }
   prevScrollpos = currentScrollPos;
+}
 }
 </script>
 
