@@ -248,7 +248,7 @@ position:relative;
     bottom: 0rem;
     z-index: 990; 
 	direction: rtl;
-    justify-content: flex-end;
+    justify-content: flex-start;
 	right: 5rem;
     }
 	
@@ -365,10 +365,10 @@ padding-bottom: 30px;
 .menuitemcontainer .pricex3 {line-height:unset;}
 
 .cambiocontenido {
-    justify-content: flex-start;
+    justify-content: flex-end;
 	right:unset;
     }
-
+.FINDUS {top:0;}
 }
 
 @media only screen and (min-width:901px) {
