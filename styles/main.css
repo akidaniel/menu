@@ -309,7 +309,7 @@ padding-bottom: 30px;
     display: block;
     width: fit-content;**/}
 	
-.expandish .pricex3 {margin:0;}
+.expandish .pricex3 {left:20%;}
 
 .expandish .dishphoto {margin: 15px 0 -10px;}
 
@@ -323,9 +323,9 @@ padding-bottom: 30px;
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 .wine img {height: 230px; padding:0}
 .expandish .wine img {width:unset; height: unset; }
-.expandish .-C .pricex3 {display:block; padding: 0px 10px; line-height: 180%;}
+.expandish .-C .pricex3 {/**display:block; padding: 0px 10px;**/ line-height: 180%;}
 .expandish .-C {margin-top: -8rem;}
-.expandish .fa-wine-glass-alt {vertical-align:bottom!important}
+.expandish .fa-wine-glass-alt {left: 20%; position: relative;}
 .expandish .wine {text-align: left; margin-left: 3rem;}
 .expandish .-C p {margin-left: 10rem;}
 
