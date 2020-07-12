@@ -309,7 +309,7 @@ padding-bottom: 30px;
     display: block;
     width: fit-content;**/}
 	
-.expandish .pricex3 {left:20%;}
+.expandish .pricex3 {left:20%; position: relative;}
 
 .expandish .dishphoto {margin: 15px 0 -10px;}
 
