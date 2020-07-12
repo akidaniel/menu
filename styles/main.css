@@ -222,17 +222,24 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
-    padding: 4px 6px;
+    padding: 2px 6px;
    background-color: white;  bottom: 15px;
     font-weight: bold;
     color: black;
-    right: 7rem; bottom:1rem;;
+    bottom:0.22rem;;
 }
+
+.numeroplato {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.numeroplato .price {right:unset;}
+
 .dishnumber::after {position:relative; 
 		  content: "\2617"; color:blue; margin-left: -1.5em; z-index:-9999; display:none;
 }
-.expandish .dishnumber {
-right: 20rem;}
+
 	
 
 /*LANGUE*/
