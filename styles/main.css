@@ -332,11 +332,12 @@ padding-bottom: 1rem;
 .wine {text-align: center!important;}
 .wine img {height: 230px; padding:0}
 .expandish .wine img {width:unset; height: unset; }
-.expandish .-C .pricex3 {/**display:block; padding: 0px 10px;**/ line-height: 180%;}
+.expandish .-C .price, .expandish .-C .pricex3, {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C {margin-top: -8rem;}
-.expandish .fa-wine-glass-alt {left: 20%; position: relative;}
+.expandish .fa-wine-glass-alt {left: 10rem; position: relative;}
 .expandish .wine {text-align: left!important; margin-left: 3rem!important;}
 .expandish .-C p {margin-left: 10rem;}
+
 
 .FINDUS {top:0;}
 
