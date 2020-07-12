@@ -308,11 +308,8 @@ z-index: 12;
 padding-bottom: 30px;
 }
 
-.expandish img {width: 300px; padding: 15px 0 0 0;}
+.expandish img {width: 300px; /**padding: 15px 0 0 0;**/}
 
-.expandish .price {/**left: 60%;
-    display: block;
-    width: fit-content;**/}
 	
 .expandish .pricex3 {left:20%; position: relative;}
 
