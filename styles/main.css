@@ -305,7 +305,7 @@ border:solid 2px #B5B5B5;
 cursor: zoom-out;
 margin: 0;
 z-index: 12;
-padding-bottom: 30px;
+padding-bottom: 1rem;
 }
 
 .expandish img {width: 300px; /**padding: 15px 0 0 0;**/}
