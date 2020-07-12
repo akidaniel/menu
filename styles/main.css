@@ -336,8 +336,9 @@ padding-bottom: 1rem;
 .expandish .-C .pricex3 {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C {margin-top: -8rem;}
 .expandish .fa-wine-glass-alt {left: 10rem; position: relative;}
-.expandish .wine {text-align: left!important; margin-left: 3rem!important; height:420px;}
+.expandish .wine {text-align: left!important; margin-left: 3rem!important;}
 .expandish .-C p {margin-left: 10rem;}
+.expandish .-C .descr {padding: 0 0 10px 0;}
 
 
 .FINDUS {top:0;}
