@@ -226,14 +226,13 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
    background-color: white;  bottom: 15px;
     font-weight: bold;
     color: black;
-    left: 40px;
+    right: 7rem; bottom:1rem;;
 }
 .dishnumber::after {position:relative; 
 		  content: "\2617"; color:blue; margin-left: -1.5em; z-index:-9999; display:none;
 }
 .expandish .dishnumber {
-    left: 30%;
-    }
+right: 20rem;}
 	
 
 /*LANGUE*/
@@ -351,9 +350,7 @@ padding-bottom: 1rem;
 .show {display:none;}
 /**FIN FONDO DE COLOR**/
 
-.expandish .dishnumber, .dishnumber {
-    left: 10%;
-    }
+
 	
 /**.price {left:30%}
 .expandish .price {display: unset;}
@@ -361,7 +358,7 @@ padding-bottom: 1rem;
 
 .dish-3 .dishnumber {left:0;}
 
-.expandish .dishnumber {left: 20%; color: #ffffff; background-color: #000000;}
+.expandish .dishnumber {color: #ffffff; background-color: #000000;}
 
 .bebidas  {marging: 0rem!important; margin-top:0rem;}
 .TITLE {-moz-box-shadow: none;
