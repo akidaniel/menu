@@ -232,7 +232,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .numeroplato {
     text-align: left;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .numeroplato .price {right:unset;}
 
