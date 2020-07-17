@@ -58,37 +58,45 @@ width:100%;}
 
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
-display:block;
-text-indent:-625rem;
-width:3rem;
-height:3rem;
-background-repeat:no-repeat;
-cursor: pointer;
-background-size:contain;
-margin: 0 0.5rem;
-}
-.HOME {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_fcbk.png)}
-
-.BACK {background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_X2.svg)}
-
-.FCBK {
-background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_fcbk.png);
-}
-
-.TWITTER {
-background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_twit.png);
+text-indent: unset;
+border: 0.15rem solid #864138;
+border-radius: 8px;
+font-family: "Font Awesome 5 Brands";
+display: inline-block;
+padding-right: 3px;
+color: #864138;
+text-decoration:none;
+font-size: 36px;
+line-height: 50px;
+display: inline-block;
+font-style: normal;
+font-variant: normal;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
 }
 
-.INSTA {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_insta.png)
+.FCBK:before {
+    content: "\f39e";
+    padding: 0 14px;
 }
 
-.MAIL {
-background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_mail.png);
+.TWITTER:before {
+    content: "\f099";
+    padding: 0 9px;
 }
 
-
-.WHATS {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/bt_whatsapp.png);
+.WHATS:before {
+    content: "\f232";
+    padding: 0 11px;
 }
+
+.MAIL:before {
+	font-family: "Font Awesome 5 Free";
+    content: "\f0e0";
+    padding: 0 8px;
+	font-weight: 900;
+}
+
 /*BOTON TEXT ME*/
 .text-me {
 	display: block;
