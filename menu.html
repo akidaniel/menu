@@ -13,7 +13,7 @@
 <meta property="og:image" content="https://akidaniel.github.io/menucatalina/imagenes/catalina_logo.png"/>
 <meta property="og:description" content="Menú Parrilla Argentina Catalina: especialidades en carnes, pastas y ensaladas" />
   
-<link rel="apple-touch-icon" sizes="57x57" href="https://akidaniel.github.io/menucatalina/imagenes/favicons/apple-icon-57x57.png">
+<!--<link rel="apple-touch-icon" sizes="57x57" href="https://akidaniel.github.io/menucatalina/imagenes/favicons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="https://akidaniel.github.io/menucatalina/imagenes/favicons/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="https://akidaniel.github.io/menucatalina/imagenes/favicons/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="https://akidaniel.github.io/menucatalina/imagenes/favicons/apple-icon-76x76.png">
@@ -29,7 +29,7 @@
 <link rel="icon" href="https://akidaniel.github.io/menucatalina/imagenes/favicons/favicon-150x150.png" sizes="32x32" />
 <link rel="icon" href="https://akidaniel.github.io/menucatalina/imagenes/favicons/favicon-300x300.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="https://akidaniel.github.io/menucatalina/imagenes/favicons/favicon-180x180.png" />
-<meta name="msapplication-TileImage" content="https://akidaniel.github.io/menucatalina/imagenes/favicons/favicon-300x300.png" />
+<meta name="msapplication-TileImage" content="https://akidaniel.github.io/menucatalina/imagenes/favicons/favicon-300x300.png" />-->
 
 
 
@@ -42,6 +42,30 @@
 
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>-->
+
+<script type="text/javascript">
+
+            var icons = [
+                "https://akidaniel.github.io/menucatalina/imagenes/favicons/apple-icon-120x120.png",
+                "https://akidaniel.github.io/menucatalina/imagenes/favicons/favicon.ico",
+            ];
+
+            var idx = localStorage["favicon"];
+            if (idx === undefined) {
+                idx = 0;
+            } else {
+                idx = parseInt(idx);
+            }
+
+            localStorage["favicon"] = (idx + 1) % icons.length;
+
+            var link = document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'icon';
+            link.href = icons[idx];
+            document.getElementsByTagName('head')[0].appendChild(link);
+
+</script>
 
 
 <link href="https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&family=Gothic+A1:wght@400;900&display=swap" rel="stylesheet">
@@ -834,7 +858,7 @@ Tous nos plats sont préparés à l'instant. Détendez-vous et profitez du mome
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish55.png" alt="Parrillada" border="0" style="margin: 0 auto"></div>
 <div><!--<span class="dishnumber">S1</span>--><span class="price">42.50 €</span></div>
 <p class="menuitem plato LES">Parrillada de ternera</p>
-<p class="menuitem plato CAT">Parrillada de vedella</p>
+<p class="menuitem plato CAT">Graellada de vedella</p>
 <p class="menuitem plato LUK">Barbecue Veal</p>
 <p class="menuitem plato LFR">Grill Veau</p>
 <p class="descr LES"><strong>Para compartir<br>2 personas</strong><br>Vacío, bife, churrasco, picaña </p>
@@ -845,8 +869,8 @@ Tous nos plats sont préparés à l'instant. Détendez-vous et profitez du mome
 
 <div class="dish-2"><div class="dishphoto"><img src="https://akidaniel.github.io/menucatalina/imagenes/dish56.png" alt="Parrillada" border="0" style="margin: 0 auto"></div>
 <div><!--<span class="dishnumber">S1</span>--><span class="price">38.50 €</span></div>
-<p class="menuitem plato LES">Parrillada de ternera</p>
-<p class="menuitem plato CAT">Parrillada de vedella</p>
+<p class="menuitem plato LES">Parrillada mixta</p>
+<p class="menuitem plato CAT">Graellada mixta</p>
 <p class="menuitem plato LUK">Barbecue Mix</p>
 <p class="menuitem plato LFR">Grill Mix</p>
 <p class="descr LES"><strong>Para compartir<br>2 personas</strong><br>Chorizo, morcilla, pollo, vacío, bife, secreto</p>
