@@ -38,7 +38,7 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
 
-<link type="text/css" rel="stylesheet" href="https://akidaniel.github.io/menucatalina/styles/main.css"/>
+<link type="text/css" rel="stylesheet" href="styles/main.css"/>
 
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>-->
@@ -69,7 +69,9 @@ var icons = [
 
 <link href="https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&family=Gothic+A1:wght@400;900&display=swap" rel="stylesheet">
 <title>Menú Catalina Parrilla</title>
-
+ 
+  
+  
 <script>
 $(document).ready(function() {
 
@@ -77,6 +79,8 @@ var display = function(block_name) {
   $('.SUBTITULO, .menuitem, .descr, .listado, .destacado, .principal').css('display', 'none');
   $('#' + block_name).css('display', 'block');
   $('.' + block_name).css('display', 'block');
+
+
 }
 
 $('.UK').on('click', function() {
@@ -1794,10 +1798,46 @@ Tous nos plats sont préparés à l'instant. Détendez-vous et profitez du mome
 <div><img src="https://akidaniel.github.io/menucatalina/imagenes/BLANK.gif" alt="Espacio" width="10" height="20" align="center" border="0" style="display:block"/></div>
 
 <div class="cartadevinos">
-<div class="menuitem LES">Cerveza <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
-<div class="menuitem CAT">Cervesa <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
-<div class="menuitem LUK">Beer <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
-<div class="menuitem LFR">Bière <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+
+<div class="menuitem LES">
+<div style="display:flex; justify-content:center;">
+<div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/moritz.png" alt="Moritz" height="30" border="0" style="display:block"/></div>
+<div class="" style="margin: 0 5px">Cerveza <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/quilmes.png" alt="Quilmes" height="30" border="0" style="display:block"/></div>
+</div></div>
+
+
+<div class="menuitem CAT">
+<div style="display:flex; justify-content:center;">
+<div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/moritz.png" alt="Moritz" height="30" border="0" style="display:block"/></div>
+<div class="" style="margin: 0 5px">Cervesa <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/quilmes.png" alt="Quilmes" height="30" border="0" style="display:block"/></div>
+</div></div>
+
+<div class="menuitem LUK">
+<div style="display:flex; justify-content:center;">
+<div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/moritz.png" alt="Moritz" height="30" border="0" style="display:block"/></div>
+<div class="" style="margin: 0 5px">Beer <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/quilmes.png" alt="Quilmes" height="30" border="0" style="display:block"/></div>
+</div></div>
+
+<div class="menuitem LFR">
+<div style="display:flex; justify-content:center;">
+<div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/moritz.png" alt="Moritz" height="30" border="0" style="display:block"/></div>
+<div class="" style="margin: 0 5px">Bière <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div>
+<div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/quilmes.png" alt="Quilmes" height="30" border="0" style="display:block"/></div>
+</div></div>
+
+
+<!--<div class="menuitem LES" style=""><div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/moritz.png" alt="Moritz" height="30" border="0" style="display:block"/></div><div style="margin: 0 5px">Cerveza <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div><div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/quilmes.png" alt="Quilmes" height="30" border="0" style="display:block"/></div>
+</div>
+<div class="menuitem CAT" style=""><div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/moritz.png" alt="Moritz" height="30" border="0" style="display:block"/></div><div class="CAT" style="margin: 0 5px">Cervesa <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div><div class="CAT" style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/quilmes.png" alt="Quilmes" height="30" border="0" style="display:block"/></div>
+</div>
+<div class="menuitem LUK" style=""><div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/moritz.png" alt="Moritz" height="30" border="0" style="display:block"/></div><div class="LUK"style="margin: 0 5px">Beer <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div><div class="LUK" style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/quilmes.png" alt="Quilmes" height="30" border="0" style="display:block"/></div>
+</div>
+<div class="menuitem LFR" style=""><div style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/moritz.png" alt="Moritz" height="30" border="0" style="display:block"/></div><div class="LFR"style="margin: 0 5px">Bière <i class="fas fa-beer" style="color:#803a30; vertical-align:middle; font-size: 24px;"></i></div><div class="LFR" style="margin: 0 5px"><img src="https://akidaniel.github.io/menucatalina/imagenes/quilmes.png" alt="Quilmes" height="30" border="0" style="display:block"/></div>
+</div>-->
+
 <div class="flexbox"><div class="principal LES CAT LUK LFR">Caña</div><div class="principal preciolista LES CAT LUK LFR">2.60 €</div></div>
 <div class="flexbox"><div class="principal LES CAT LUK LFR">Clara Radler</div><div class="principal preciolista LES CAT LUK LFR">2.60 €</div></div>
 <div class="flexbox"><div class="principal LES CAT LUK LFR">Jarra 500ml</div><div class="principal preciolista LES CAT LUK LFR">4.25 €</div></div>

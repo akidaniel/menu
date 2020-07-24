@@ -165,8 +165,9 @@ width:100%;}
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
 
-	
-/**.cartadevinos, .cartadepostres**/ {display:none;}
+/**.menuitembeer {font-family: 'Almendra', serif; font-weight: bold; display:flex!important;
+ font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; justify-content: center;}	
+.cartadevinos, .cartadepostres {display:none;}**/
 
 .ultimalinea {border:none}
 .menudevinos, .menudepostres {display:none}
