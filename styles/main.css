@@ -175,7 +175,7 @@ width:100%;}
 
 
 .topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px; border-bottom: 1px solid #BE9A91; padding: 0.5rem 0 0; margin-bottom: 1rem;}
-.topimage img {float:right;}
+.topimage img {float:left; margin: 0 0.5rem 0.5rem 0; }
 
 .principal {
 background: ;
@@ -196,9 +196,12 @@ color:#454545;
 .destacado {font-family: 'Almendra', serif;
 text-align:left;
 font-size:17px; font-weight: normal;}
-.descr {font-family: 'Gothic A1', sans-serif; font-weight: normal;
+.descr {font-family: 'Gothic A1', sans-serif; font-weight: normal; color: #000000;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
+.tabla {padding: 8px 5px 4px;
+    margin: 0;}
+	
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
  font-family: 'Almendra', serif;
@@ -393,6 +396,8 @@ a.FINDUS {text-decoration: none;}
 	right:unset;
     }
 .FINDUS {top:0;}
+
+.topimage img {float: right; margin: 0 0 0.5rem 0.5rem.descr;}
 }
 
 @media only screen and (min-width:901px) {
@@ -410,7 +415,6 @@ display: block;
 .FCBK, .TWITTER, .GPLUS, .MAIL, .HOME, .BACK, .INSTA, .WHATS {
 margin: 0 0 16px;
 }
-.topimage img {float:left;}
 
 }
 
