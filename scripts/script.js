@@ -106,9 +106,6 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 }
-
-
-
 //ALERGENOS
 $(document).ready(function() {
 

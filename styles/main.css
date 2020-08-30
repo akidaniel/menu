@@ -378,8 +378,8 @@ height:2.5rem;
 font-family: 'Gothic A1', sans-serif;
 font-size: 15px; text-align: center;
 position: relative;
-top: -2rem;
-line-height: 750%;
+top: -1.75rem;
+line-height: 680%;
 display: flex;
 flex-direction: column;
 align-items: center;}
