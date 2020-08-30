@@ -106,3 +106,43 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 }
+
+
+
+//ALERGENOS
+$(document).ready(function() {
+
+var display = function(alerglang) {
+  $('.LESa, .LUKa, .LFRa, .CATa').css('display', 'none');
+  $('.' + alerglang).css('display', 'flex');
+
+
+}
+
+$('.UK').on('click', function() {
+  display('LUKa', $(this));
+});
+
+$('.ES').on('click', function() {
+  display('LESa', $(this));
+});
+
+$('.CT').on('click', function() {
+  display('CATa', $(this));
+});
+
+
+$('.FR').on('click', function() {
+  display('LFRa', $(this));
+});
+});
+
+
+
+
+
+
+
+
+
+

@@ -359,21 +359,19 @@ padding-bottom: 1rem;
 a.FINDUS {text-decoration: none;}
 
 /**ALERGENOS**/
-
-.alergenos {display:none; }
-
-.expandish .alergenos {display: flex;
-    justify-content: center;
+.alergenos {display:none; justify-content: center;
     width: 100%;
-    position: relative;}
-	
+    position: absolute; visibility:hidden}
+
+.expandish .alergenos {display:none; position: relative; visibility: visible; margin-bottom: -1rem;}
+
+.expandish .LESa {display:flex;}	
+.expandish .LUKa, .expandish .LFRa, .expandish .CATa {display:none;}
+
 .gluten, .huevo, .pescado, .mostaza, .cacahuete, .crustaceo, .frutoseco, .apio, .sesamo, .sulfito, .altramuz, .lacteo, .molusco, .soja {
 border: 0.15rem solid #ffffff;
 border-radius: 1.5rem;
 color: #000000;
-text-decoration:none;
-font-style: normal;
-font-variant: normal;
 margin: 0 0.5rem;
 width:2.5rem;
 height:2.5rem;
@@ -405,7 +403,14 @@ line-height: 750%;}
    height:100%;
    width:100%;
     }
-
+.sulfito:before{ background: url(https://static.thenounproject.com/png/1903088-200.png) no-repeat center 30%; background-size: 70%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%;
+    }
 /**.soja:before{
     position: absolute;
     top: 0;
