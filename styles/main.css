@@ -379,7 +379,10 @@ font-family: 'Gothic A1', sans-serif;
 font-size: 15px; text-align: center;
 position: relative;
 top: -2rem;
-line-height: 750%;}
+line-height: 750%;
+display: flex;
+flex-direction: column;
+align-items: center;}
 .altramuz {background-color: #F7DF55;}
 .apio {background-color: #63BD55;}
 .gluten {background-color: #F2764A;}
@@ -395,7 +398,7 @@ line-height: 750%;}
 .sulfito {background-color: #871C58;}
 .soja {background-color:#23AD65;} 
 
-.soja:before{ background: url(https://static.thenounproject.com/png/916439-200.png) no-repeat 0 30%; background-size: 80%;
+.soja:before{ background: url(https://static.thenounproject.com/png/916439-200.png) no-repeat center 30%; background-size: 80%;
 -webkit-filter: invert(100%);
     position: absolute;
     content: "";
@@ -403,7 +406,7 @@ line-height: 750%;}
    height:100%;
    width:100%;
     }
-.sulfito:before{ background: url(https://static.thenounproject.com/png/1903088-200.png) no-repeat center 30%; background-size: 70%;
+.sulfito::before{ background: url(https://static.thenounproject.com/png/1903088-200.png) no-repeat center 30%; background-size: 70%;
 -webkit-filter: invert(100%);
     position: absolute;
     content: "";
