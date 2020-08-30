@@ -358,6 +358,66 @@ padding-bottom: 1rem;
 .FINDUS {top:0;}
 a.FINDUS {text-decoration: none;}
 
+/**ALERGENOS**/
+
+.alergenos {display:none; }
+
+.expandish .alergenos {display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;}
+	
+.gluten, .huevo, .pescado, .mostaza, .cacahuete, .crustaceo, .frutoseco, .apio, .sesamo, .sulfito, .altramuz, .lacteo, .molusco, .soja {
+border: 0.15rem solid #ffffff;
+border-radius: 1.5rem;
+color: #000000;
+text-decoration:none;
+font-style: normal;
+font-variant: normal;
+margin: 0 0.5rem;
+width:2.5rem;
+height:2.5rem;
+font-family: 'Gothic A1', sans-serif;
+font-size: 15px; text-align: center;
+position: relative;
+top: -2rem;
+line-height: 750%;}
+.altramuz {background-color: #F7DF55;}
+.apio {background-color: #63BD55;}
+.gluten {background-color: #F2764A;}
+.huevo {background-color: #F59342;}
+.cacahuete {background-color: #C87C51;}
+.crustaceo {background-color: #43BCE8;}
+.frutoseco {background-color: #EE5D64;}
+.lacteo {background-color: #743E21;}
+.molusco {background-color: #5BC9D7;}
+.mostaza {background-color: #C59A40;}
+.pescado {background-color: #314F9F;}
+.sesamo {background-color: #A29677;}
+.sulfito {background-color: #871C58;}
+.soja {background-color:#23AD65;} 
+
+.soja:before{ background: url(https://static.thenounproject.com/png/916439-200.png) no-repeat 0 30%; background-size: 80%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%;
+    }
+
+/**.soja:before{
+    position: absolute;
+    top: 0;
+    font-size: 24px;
+	padding: 0 3px;
+	font-family: "Font Awesome 5 Free";
+    content: "/789";
+	color:#ffffff;
+	line-height: 160%;
+   
+    }**/
+
 @media only screen and (max-width: 900px) {
 
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }

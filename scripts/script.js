@@ -78,7 +78,6 @@ $('.dish-2, .dish-3').click(function() {
     $(this).siblings(".show").toggle();
 	    $('.show').css('z-index', '11')
 
-
 });
 
 /*$('img').bind('contextmenu', function(e) {
