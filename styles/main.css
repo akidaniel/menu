@@ -372,7 +372,7 @@ a.FINDUS {text-decoration: none;}
 border: 0.15rem solid #ffffff;
 border-radius: 1.5rem;
 color: #000000;
-margin: -0.5rem 0.35rem -2rem;
+margin: 0.5rem 0.35rem -2rem;
 width:2.5rem;
 height:2.5rem;
 font-family: 'Gothic A1', sans-serif;
@@ -419,13 +419,13 @@ left:0;}
    height:100%;
    width:100%; left:2%;
     }
-.mostaza:before{ background: url(https://static.thenounproject.com/png/804324-200.png) no-repeat center 30%; background-size: 70%;
+.mostaza:before{ background: url(https://img.icons8.com/ios-filled/2x/mustard.png) no-repeat center 30%; background-size: 70%;
 -webkit-filter: invert(100%);
     position: absolute;
     content: "";
 	color:#23AD65;
    height:100%;
-   width:100%;
+   width:100%; left:0;
     }
 .frutoseco:before{ background: url(https://static.thenounproject.com/png/1048434-200.png) no-repeat 55% 45%; background-size: 70%;
 -webkit-filter: invert(100%);
@@ -441,10 +441,10 @@ left:0;}
     content: "";
 	color:#23AD65;
    height:100%;
-   width:100%;
+   width:100%; left:0;
     }
 	
-.pescado:before{ background: url(https://static.thenounproject.com/png/1617386-200.png) no-repeat 55% 45%; background-size: 90%;
+.pescado:before{ background: url(https://img.icons8.com/ios-glyphs/2x/whole-fish.png) no-repeat 55% 45%; background-size: 80%;
 -webkit-filter: invert(100%);
     position: absolute;
     content: "";
@@ -452,7 +452,7 @@ left:0;}
    height:100%;
    width:100%;
     }
-.gluten:before{ background: url(https://static.thenounproject.com/png/1617386-200.png) no-repeat 55% 45%; background-size: 90%;
+.gluten:before{ background: url(https://img.icons8.com/material/2x/wheat.png) no-repeat 55% 45%; background-size: 80%;
 -webkit-filter: invert(100%);
     position: absolute;
     content: "";
@@ -462,13 +462,14 @@ left:0;}
    left:0;
     }
 	
-.huevo:before{ background: url(https://static.thenounproject.com/png/1617386-200.png) no-repeat 55% 45%; background-size: 90%;
+.huevo:before{ background: url(https://img.icons8.com/ios-filled/2x/eggs.png) no-repeat 55% 45%; background-size: 70%;
 -webkit-filter: invert(100%);
     position: absolute;
     content: "";
 	color:#23AD65;
    height:100%;
    width:100%;
+   left:0;
     }
 /**.pescado:before{
     position: absolute;
