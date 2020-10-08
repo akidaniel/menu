@@ -178,7 +178,6 @@ width:100%;}
 .topimage img {float:left; margin: 0 0.5rem 0.5rem 0; }
 
 .principal {
-background: ;
 flex: 1;
 font-family: 'Almendra', serif;
 font-size:18px;
@@ -383,6 +382,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 left:0;}
+
+
+.LESa label, .CATa label, .LUKa label, .LFRa label {font-family: 'Gothic A1', sans-serif;
+top: -10px; position: absolute;
+line-height: 0%; font-size:12px; text-align:center; color:#803a30; font-weight:bold; min-width: 4rem;}
+	
 .altramuz {background-color: #F7DF55;}
 .apio {background-color: #63BD55;}
 .gluten {background-color: #F2764A;}
